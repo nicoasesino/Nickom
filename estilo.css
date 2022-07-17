@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.pie-pagina{
+    width: 100%;
+    background-color: #323232;
+    height: 100%;
+    margin-top: 100%;
+}
+
+.firma-1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 50px 0px;
+    color: white;
+    text-align: start;
+}
+
+.firma-1 .box p {
+    padding: 10px;
+    justify-content: end;
+
+}
+
+.firma-1 .box h2 {
+    padding: 10px;
+
+}
+.firma-1 a {
+    text-decoration: none;
+    color: white;
+    right: 0px;
+}
+
+.pie-pagina .box img {
+    max-width: 25%;
+    max-height: 25%;
+
+}
+.pie-pagina .firma-2 {
+    background-color: #252525;
+    text-align: center;
+    font-size: 25px;
+
+
+}
+
+.firma-2 small {
+    align-content: center;
+    color: white;
+}
+
+.firma-1 .box .logo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0;
+}
+
+.firma-1 .box .logo a img {
+    max-width: 70%;
+    max-height: 70%;
+}
+
+body {
+    background-color: red;
+    margin-bottom: auto;
+}

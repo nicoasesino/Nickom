@@ -1,0 +1,22 @@
+ body {
+
+    margin: 0;
+    padding: 0;
+
+    background-color: #cbcaca;
+
+
+    
+}
+
+.menu {
+    background-color: indianred;
+    margin-top: 0;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding-bottom: 100px;
+    margin-bottom: 100px;
+}
