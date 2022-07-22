@@ -68,6 +68,42 @@
 }
 
 body {
-    background-color: red;
+    background-color: rgba(74, 73, 79, 0.213);
     margin-bottom: auto;
 }
+
+/* Menu */
+header {
+    background-color: azure;
+    width: 100%;
+    clear: both;
+    content:'';
+    display: table;
+}
+.nav {
+    width: 1500px;
+    margin: 0 auto;
+    float: right;
+
+}
+ .nav * {
+    text-decoration: none;
+    margin-left: 100px;
+    box-sizing: border-box;
+ }
+
+ .nav img {
+    float: left;
+    padding: 8px;
+ }
+
+ .nav ul li {
+    list-style: none;
+    float: left;
+    color: rgb(0, 0, 0);
+ }
+
+ .nav ul li a {
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
