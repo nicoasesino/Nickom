@@ -93,28 +93,28 @@ Header a {
 }
 
 
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 425px) {
     .img2 {
-        width: 412px;
+        width: 425px;
     }
 
 }
 
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 425px) {
     header {
-        width: 412px;
+        width: 425px;
     }
 
 }
 
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 425x) {
     footer {
-        width: 412px;
+        width: 425px;
     }
 
 }
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 425px) {
     main {
-        width: 412px;
+        width: 425px;
     }
 }
