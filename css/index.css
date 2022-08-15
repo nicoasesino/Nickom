@@ -1,7 +1,8 @@
 main {
     height: 1000px;
-    display: inline-block;
+    margin: 200px 200px;
 }
+
 
 header {
     background-color: #27044B;
@@ -88,10 +89,12 @@ Header a {
 
 /* Gsuite */
 
-.gsuite {
+.inicio {
     background-color: aliceblue;
-    justify-content: center;
+    display: inline-block;
+    border: solid black;
     text-align: center;
+
 }
 
 
