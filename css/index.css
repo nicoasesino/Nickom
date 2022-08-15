@@ -1,5 +1,6 @@
 main {
     height: 1000px;
+    display: inline-block;
 }
 
 header {
