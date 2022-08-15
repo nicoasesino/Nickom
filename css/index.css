@@ -115,11 +115,18 @@ Header a {
     header {
         width: 100%;
     }    
+    .inicio {
+        width: 100%;  
+        left: 0;
+    }
 }
 
 @media screen and (max-width: 425x) {
     footer {
         width: 100%;
+    }
+    .inicio {
+        width: 100%;  
     }
 
 }
@@ -128,6 +135,9 @@ Header a {
         width: 100%;
         text-align: center;
         justify-content: center; 
+    }
+    .inicio {
+        width: 100%;  
     }
 }
 @media screen and (max-width: 768px) {
@@ -145,5 +155,8 @@ Header a {
         width: 100%;   
         text-align: center;
         justify-content: center; 
+    }
+    .inicio {
+        width: 100%;  
     }
 }
