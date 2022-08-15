@@ -1,5 +1,5 @@
 main {
-    height: 1000px;
+    height: 6000px;
     margin: 200px 200px;
 }
 
@@ -94,6 +94,7 @@ Header a {
     display: inline-block;
     border: solid black;
     text-align: center;
+    position: relative;
 
 }
 
