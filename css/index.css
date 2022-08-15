@@ -96,24 +96,24 @@ Header a {
 
 @media screen and (max-width: 425px) {
     .img2 {
-        width: 425px;
+        width: 100%;
     }
 }
 @media screen and (max-width: 425px) {
     header {
-        width: 425px;
+        width: 100%;
     }    
 }
 
 @media screen and (max-width: 425x) {
     footer {
-        width: 425px;
+        width: 100%;
     }
 
 }
 @media screen and (max-width: 425px) {
     main {
-        width: 425px;
+        width: 100%;
     }
 }
 @media screen and (max-width: 768px) {
