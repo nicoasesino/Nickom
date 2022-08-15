@@ -4,6 +4,7 @@ main {
 
 header {
     background-color: #27044B;
+    width: 100%;
 }
 
 Header a {
@@ -23,7 +24,7 @@ Header a {
 }
 .img2 {
     position: relative;
-    max-width: 16000px;
+    width: 100%;
 }
 .img1 {
     position: relative;
@@ -97,14 +98,11 @@ Header a {
     .img2 {
         width: 425px;
     }
-
 }
-
 @media screen and (max-width: 425px) {
     header {
         width: 425px;
-    }
-
+    }    
 }
 
 @media screen and (max-width: 425x) {
@@ -116,5 +114,19 @@ Header a {
 @media screen and (max-width: 425px) {
     main {
         width: 425px;
+    }
+}
+@media screen and (max-width: 768px) {
+    main {
+        width: 100%;
+    }
+    header {
+        width: 100%;
+    }
+    footer {
+        width: 100%;
+    }
+    main {
+        width: 100%;    
     }
 }
