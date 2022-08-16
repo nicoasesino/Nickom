@@ -118,7 +118,7 @@ Header a {
     .img2 {
         width: 100%;
         height: 100%;
-        padding-top: 100px;
+        padding-bottom: 100px;
     }
     main {
         width: 100%;
@@ -142,7 +142,7 @@ Header a {
     .img2 {
         width: 100%;
         height: 100%;
-        padding-top: 100px;
+        padding-bottom: 100px;
     }
     main {
         width: 100%;
@@ -169,7 +169,7 @@ Header a {
     .img2 {
         width: 360px;
         height: 100%;
-        padding-top: 100px;
+        padding-bottom: 100px;
     }
     main {
         width: 100%;
