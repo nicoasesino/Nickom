@@ -1,0 +1,133 @@
+
+body {
+    background-color: black;
+    width: 100%;
+}
+main {
+    height: 6000px;
+    background-color: blueviolet;
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    background-color: #27044B;
+    width: 100%;
+}
+
+Header a {
+    text-decoration: none;
+    position: relative;
+    bottom: 10px;
+    font-size: 20px;
+    color: white;
+}
+.box {
+    display: inline-block;
+    margin-left: 30px;
+    right: 300px;
+    padding: 0 50px;
+}
+
+.img2 {
+    position: relative;
+    width: 100%;
+}
+.img1 {
+    position: relative;
+    top: 40px;
+    left: 20px;
+}
+
+.contacto {
+    background-color: black;
+    text-align: center;
+
+}  
+
+.contacto a {
+    color: white;
+    font-size: 50px;
+    text-decoration: none;
+
+
+}
+
+.form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column: auto;
+    padding: 100px ;
+
+}
+
+.form h1 {
+    margin: 50px;
+    color: white;
+}
+
+
+
+
+.piedefirma {
+    background-color: #27044B;
+    width: 100%;
+    color: white;
+    padding-top: 150px;
+}
+
+.piedefirma .grupo2 {
+    text-align: center;
+    background-color: black;
+    font-size: 20px;
+    justify-content: center
+}
+
+.grupo2 a {
+    text-decoration: none;
+    color: white;
+}
+
+.grupo1 .box1 {
+    display: inline-block;
+}
+
+.grupo1 {
+    padding-bottom: 100px;
+    justify-content: center;
+    font-size: large;
+}
+
+.grupo1 .box1 a{
+    text-decoration: none;
+    color: white;
+}
+
+/* FORMATO DISPOSITIVO MOVIL */
+
+@media screen and (max-width: 425px) {
+    header {
+        width: 100%;
+    }
+    .form {
+        display: block;
+        width: 100%;
+    }
+    footer {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        width: 100%;
+    }
+    .form {
+        display: block;
+        width: 100%;
+    }
+    footer {
+        width: 100%;
+    }
+}
