@@ -135,6 +135,7 @@ Header a {
         text-align: start;
         justify-content: start; 
         padding: 100px 0;
+        height: 900px;
     }
     footer {
         width: 100%;
