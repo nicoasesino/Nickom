@@ -116,6 +116,9 @@ Header a {
     footer {
         width: 100%;
     }
+    .img2 {
+        width: 100%;
+    }
 
 }
 
@@ -126,8 +129,14 @@ Header a {
     .form {
         display: block;
         width: 100%;
+        left: 20px;
+        text-align: center;
+        justify-content: center; 
     }
     footer {
+        width: 100%;
+    }
+    .img2 {
         width: 100%;
     }
 }
