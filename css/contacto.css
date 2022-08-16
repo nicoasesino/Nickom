@@ -57,7 +57,7 @@ Header a {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-column: auto;
-    padding: 100px ;
+    padding: 100px;
 
 }
 
@@ -132,9 +132,9 @@ Header a {
     .form {
         display: block;
         width: 100%;
-        left: 50px;
         text-align: start;
         justify-content: start; 
+        padding: 100px 0;
     }
     footer {
         width: 100%;
