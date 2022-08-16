@@ -146,6 +146,9 @@ Header a {
 }
 
 @media screen and (max-width: 360px) {
+    body{
+        width: 100%;
+    } 
     header {
         width: 100%;
     }
