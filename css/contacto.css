@@ -154,7 +154,7 @@ Header a {
     }
     .form {
         display: block;
-        width: 100%;
+        width: 360px;
         text-align: start;
         justify-content: start; 
         padding: 100px 0;
