@@ -80,3 +80,43 @@ Header a {
     text-decoration: none;
     color: white;
 }
+
+@media screen and (max-width: 425px) {
+    header {
+        width: 100%;
+    }
+    footer {
+        width: 100%;
+    }
+    .img2 {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        width: 100%;
+    }
+    footer {
+        width: 100%;
+    }
+    .img2 {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    body{
+        width: 360px;
+    } 
+    header {
+        width: 360px;
+    }
+    footer {
+        width: 360px;
+    }
+    .img2 {
+        width: 360px;
+    }
+}

@@ -153,4 +153,25 @@ Header a {
         grid-template-columns: repeat(1, 1fr);
         height: 100%;
     }
+}   
+
+@media screen and (max-width: 360px) {
+    header {
+        width: 100%;
+    }
+    main {
+        height: 100%;
+        width: 100%;
+    }
+    footer {
+        width: 100%;
+    }
+    .main {
+        width: 100%;   
+        text-align: center;
+        justify-content: center; 
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        height: 100%;
+    }
 }
