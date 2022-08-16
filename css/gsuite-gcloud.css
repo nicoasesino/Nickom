@@ -117,7 +117,7 @@ Header a {
     }
     .img2 {
         width: 360px;
-        position: relative;
+        position: absolute;
         top: 200px;
     }
     main {
@@ -141,7 +141,7 @@ Header a {
     }
     .img2 {
         width: 360px;
-        position: relative;
+        position: absolute;
         top: 200px;
     }
     main {
@@ -168,7 +168,7 @@ Header a {
     }
     .img2 {
         width: 360px;
-        position: relative;
+        position: absolute;
         top: 200px;
     }
     main {
