@@ -105,15 +105,15 @@ Header a {
     header {
         width: 100%;
     }
-    .bar {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-    }
     footer {
         width: 100%;
     }
     .img2 {
         width: 100%;
+    }
+    main {
+        width: 100%;
+        height: 100;
     }
 
 }
@@ -122,15 +122,15 @@ Header a {
     header {
         width: 100%;
     }
-    .bar {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-    }
     footer {
         width: 100%;
     }
     .img2 {
         width: 100%;
+    }
+    main {
+        width: 100%;
+        height: 100;
     }
 }
 
@@ -141,14 +141,14 @@ Header a {
     header {
         width: 360px;
     }
-    .bar {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-    }
     footer {
         width: 360px;
     }
     .img2 {
         width: 360px;
+    }
+    main {
+        width: 100%;
+        height: 100;
     }
 }

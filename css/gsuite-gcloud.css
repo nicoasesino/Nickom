@@ -80,6 +80,8 @@ Header a {
     text-decoration: none;
     color: white;
 }
+
+/* Pagina WEB */
 .bar  {
     margin: 50px 50px;
     display: grid;
@@ -115,6 +117,10 @@ Header a {
     .img2 {
         width: 100%;
     }
+    main {
+        width: 100%;
+        height: 100;
+    }
 
 }
 
@@ -132,7 +138,12 @@ Header a {
     .img2 {
         width: 100%;
     }
+    main {
+        width: 100%;
+        height: 100;
+    }
 }
+
 
 @media screen and (max-width: 360px) {
     body{
@@ -150,5 +161,9 @@ Header a {
     }
     .img2 {
         width: 360px;
+    }
+    main {
+        width: 100%;
+        height: 100;
     }
 }
