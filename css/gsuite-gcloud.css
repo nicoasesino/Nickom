@@ -1,25 +1,23 @@
+
 body {
     background-color: #27044B;
 }
+
 main {
-    height:1000px;
-    background-color: blueviolet;
-    margin: 0;
-    padding: 0;
+    height: 800px;
+    background-color: #E0C3FF;
+    width: 100%;
 }
 
-.header  {
+
+.header {
     background-color: #27044B;
     position: fixed;
     top: 0;
     transition: 0.2s;
     width: 100%;
-} 
-
-header {
-    background-color: #27044B;
-    width: 100%;
 }
+
 
 Header a {
     text-decoration: none;
@@ -28,17 +26,18 @@ Header a {
     font-size: 20px;
     color: white;
 }
-
 .box {
     display: inline-block;
     margin-left: 30px;
     right: 300px;
     padding: 0 50px;
-   
 }
+
 .img2 {
     width: 100%;
-    height: 400px;
+    height: 100%;
+    padding-top: 90px;
+
 }
 .img1 {
     position: relative;
@@ -47,8 +46,7 @@ Header a {
 }
 
 
-/* Footer */
-
+/* Pie de Firma */
 .piedefirma {
     background-color: #27044B;
     width: 100%;
@@ -82,79 +80,75 @@ Header a {
     text-decoration: none;
     color: white;
 }
-
-/* Gsuite */
-
- .inicio {
-    background-color: coral;
-    border: solid black;
-    text-align: center;
-
-} 
-
-.main {
-    padding: 100px 0;
+.bar  {
+    margin: 50px 50px;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    padding: 50px 0;
+}
+
+.texto1 h1 {
+    text-align: center;
+}
+
+.texto {
+    border: solid black;
+    padding: 0 10px;
+}
+.texto1 {
+    border: solid black;
+    padding: 0 10px;
+}
+/* FORMATO DISPOSITIVO MOVIL */
+
+@media screen and (max-width: 425px) {
+    header {
+        width: 100%;
+    }
+    .bar {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    footer {
+        width: 100%;
+    }
+    .img2 {
+        width: 100%;
+    }
 
 }
 
-
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 768px) {
+    header {
+        width: 100%;
+    }
+    .bar {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    footer {
+        width: 100%;
+    }
     .img2 {
         width: 100%;
     }
 }
-@media screen and (max-width: 425px) {
+
+@media screen and (max-width: 360px) {
+    body{
+        width: 360px;
+    } 
     header {
-        width: 100%;
-    }    
-    .inicio {
-        width: 100%;  
-        left: 0;
+        width: 360px;
     }
-}
-
-@media screen and (max-width: 425x) {
-    footer {
-        width: 100%;
-    }
-    .inicio {
-        width: 100%;  
-    }
-
-}
-@media screen and (max-width: 425px) {
-    main {
-        width: 100%;
-        text-align: center;
-        justify-content: center; 
+    .bar {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
-    .inicio {
-        width: 100%;  
-    }
-}
-@media screen and (max-width: 768px) {
-    main {
-        width: 100%;
-        text-align: center;
-    }
-    header {
-        width: 100%;
-    }
     footer {
-        width: 100%;
+        width: 360px;
     }
-    main {
-        width: 100%;   
-        text-align: center;
-        justify-content: center; 
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-    }
-    .inicio {
-        width: 100%;  
+    .img2 {
+        width: 360px;
     }
 }

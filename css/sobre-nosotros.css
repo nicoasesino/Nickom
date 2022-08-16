@@ -1,0 +1,82 @@
+
+body {
+    background-color: #27044B;
+}
+
+main {
+    height: 800px;
+    background-color: #E0C3FF;
+    width: 100%;
+}
+
+
+.header {
+    background-color: #27044B;
+    position: fixed;
+    top: 0;
+    transition: 0.2s;
+    width: 100%;
+}
+
+
+Header a {
+    text-decoration: none;
+    position: relative;
+    bottom: 10px;
+    font-size: 20px;
+    color: white;
+}
+.box {
+    display: inline-block;
+    margin-left: 30px;
+    right: 300px;
+    padding: 0 50px;
+}
+
+.img2 {
+    width: 100%;
+    height: 100%;
+    padding-top: 90px;
+
+}
+.img1 {
+    position: relative;
+    top: 40px;
+    left: 20px;
+}
+
+
+/* Pie de Firma */
+.piedefirma {
+    background-color: #27044B;
+    width: 100%;
+    color: white;
+    padding-top: 150px;
+}
+
+.piedefirma .grupo2 {
+    text-align: center;
+    background-color: black;
+    font-size: 20px;
+    justify-content: center
+}
+
+.grupo2 a {
+    text-decoration: none;
+    color: white;
+}
+
+.grupo1 .box1 {
+    display: inline-block;
+}
+
+.grupo1 {
+    padding-bottom: 100px;
+    justify-content: center;
+    font-size: large;
+}
+
+.grupo1 .box1 a{
+    text-decoration: none;
+    color: white;
+}
