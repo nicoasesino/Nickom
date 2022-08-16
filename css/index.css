@@ -109,52 +109,34 @@ Header a {
     header {
         width: 100%;
     }    
-    .inicio {
-        width: 100%;  
-        left: 0;
-    }
 }
 
 @media screen and (max-width: 425x) {
     footer {
         width: 100%;
     }
-    .inicio {
-        width: 100%;  
-    }
-
 }
 @media screen and (max-width: 425px) {
-    main {
+    .main {
         width: 100%;
         text-align: center;
         justify-content: center; 
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
-    .inicio {
-        width: 100%;  
-    }
 }
 @media screen and (max-width: 768px) {
-    main {
-        width: 100%;
-        text-align: center;
-    }
     header {
         width: 100%;
     }
     footer {
         width: 100%;
     }
-    main {
+    .main {
         width: 100%;   
         text-align: center;
         justify-content: center; 
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-    }
-    .inicio {
-        width: 100%;  
     }
 }
