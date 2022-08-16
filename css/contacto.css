@@ -130,7 +130,7 @@ Header a {
         display: block;
         width: 100%;
         left: 50px;
-        text-align: center;
+        text-align: start;
         justify-content: start; 
     }
     footer {
