@@ -150,20 +150,20 @@ Header a {
         width: 360px;
     } 
     header {
-        width: 100%;
+        width: 360px;
     }
     .form {
         display: block;
         width: 360px;
         text-align: start;
         justify-content: start; 
-        padding: 100px 0;
         height: 900px;
+        padding: 50px 0;
     }
     footer {
-        width: 100%;
+        width: 360px;
     }
     .img2 {
-        width: 100%;
+        width: 360px;
     }
 }
