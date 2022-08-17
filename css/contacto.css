@@ -59,7 +59,7 @@ Header a {
 
 }
 .form1 {
-    background-color: #4C0495;
+    background-color: #E0C3FF;;
     height: 1000px;
     padding: 100px 0;
     justify-content: center;
@@ -68,16 +68,17 @@ Header a {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-column: auto;
-    background-color: #A291B4;
+    background-color: #E0C3FF;;
     height: 850px;
     padding: 100px 0;
 }
 .form h1 {
     margin: 50px;
-    color: white;
+    color: black;
     text-align: center;
     border: solid black;
-    padding: 0;
+    padding: 50px 0;
+    background-color: bisque;
 }
 
 /* Pie de Firma */

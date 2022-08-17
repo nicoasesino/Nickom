@@ -87,6 +87,8 @@ Header a {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding: 50px 0;
+    gap: 50px;
+    
 }
 
 .texto1 h1 {
@@ -96,10 +98,12 @@ Header a {
 .texto {
     border: solid black;
     padding: 0 10px;
+    background-color: azure;
 }
 .texto1 {
     border: solid black;
     padding: 0 10px;
+    background-color: aliceblue;
 }
 /* FORMATO DISPOSITIVO MOVIL */
 
@@ -152,9 +156,6 @@ Header a {
 
 
 @media screen and (max-width: 360px) {
-    body{
-        width: 360px;
-    } 
     header {
         width: 360px;
     }
@@ -167,9 +168,9 @@ Header a {
         width: 360px;
     }
     .img2 {
-        width: 360px;
-        position: absolute;
-        top: 200px;
+        width: 100%;
+
+   
     }
     main {
         width: 100%;

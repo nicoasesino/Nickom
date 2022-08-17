@@ -3,7 +3,7 @@ body {
 }
 main {
     height:1000px;
-    background-color: blueviolet;
+    background-color: #E0C3FF;
     margin: 0;
     padding: 0;
 }
@@ -85,17 +85,44 @@ Header a {
 
 /* Gsuite */
 
+.tag {
+    text-align: center;
+    font-size: 50px;
+    background-color: cornflowerblue;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 30px 0;
+}
+
  .inicio {
-    background-color: coral;
+    background-color: blanchedalmond;
     border: solid black;
     text-align: center;
 
 } 
+.inicio2 {
+    background-color: blanchedalmond;
+    border: solid black;
+    text-align: center;
+}
+.inicio3 {
+    background-color: blanchedalmond;
+    border: solid black;
+    text-align: center;
+}
+.inicio4 {
+    background-color: blanchedalmond;
+    border: solid black;
+    text-align: center;
+}
 
 .main {
     padding: 100px 0;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+    align-content: center;
 
 }
 
