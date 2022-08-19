@@ -109,6 +109,14 @@ header {
 
 }
 
+.tag {
+    text-align: center;
+    font-size: 50px;
+    background-color: cornflowerblue;
+    width: 100%;
+    padding: 30px 0;
+}
+
 .informacion {
     display: flex;
     justify-content: center;
