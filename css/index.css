@@ -155,6 +155,5 @@ header {
     grid-template-columns: repeat(4, 1fr);
     gap: 50px;
     align-content: center;
-    margin: auto;
-
+    justify-content: center;
 }
