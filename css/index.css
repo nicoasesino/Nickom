@@ -150,7 +150,4 @@ header {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 50px;
-    align-content: center;
-    justify-content: center;
-    margin: auto;
 }
