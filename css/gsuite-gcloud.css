@@ -1,50 +1,59 @@
-
+* {
+    margin: 0;
+    padding: 0;
+}
 body {
     background-color: #27044B;
 }
-
 main {
-    height: 800px;
     background-color: #E0C3FF;
-    width: 100%;
+    height: 2000px;
 }
-
-
-.header {
+header {
     background-color: #27044B;
     position: fixed;
     top: 0;
-    transition: 0.2s;
+    transition: 0.5s;
     width: 100%;
+    height: auto;
 }
 
+.header  {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 50px;
+} 
 
-Header a {
+.header img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+}
+
+.header a {
     text-decoration: none;
-    position: relative;
-    bottom: 10px;
     font-size: 20px;
     color: white;
-}
-.box {
-    display: inline-block;
-    margin-left: 30px;
-    right: 300px;
     padding: 0 50px;
 }
+.header a:hover{
+    background-color: aqua;
+    color: black;
+    border-radius: 100px;
+}
+
+.header ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
 
 .img2 {
     width: 100%;
-    height: 100%;
-    padding-top: 90px;
-
+    height: 600px;
+    margin: 120px 0;
 }
-.img1 {
-    position: relative;
-    top: 40px;
-    left: 20px;
-}
-
 
 /* Pie de Firma */
 .piedefirma {
@@ -66,20 +75,31 @@ Header a {
     color: white;
 }
 
-.grupo1 .box1 {
-    display: inline-block;
+.grupo1 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    padding-bottom: 100px;
+    padding-left: 200px;
+    padding-right: 300px;
+    margin: 0;
 }
 
-.grupo1 {
-    padding-bottom: 100px;
-    justify-content: center;
-    font-size: large;
+.grupo1 .box1 ul {
+    list-style-type: none;
 }
 
 .grupo1 .box1 a{
     text-decoration: none;
     color: white;
 }
+
+.grupo1 .box1 a:hover {
+    background-color: aqua;
+    color: black;
+    border-radius: 100px;
+}
+
 
 /* Pagina WEB */
 .bar  {
@@ -88,7 +108,7 @@ Header a {
     grid-template-columns: repeat(2, 1fr);
     padding: 50px 0;
     gap: 50px;
-    
+    height: 500px;
 }
 
 .texto1 h1 {

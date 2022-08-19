@@ -1,53 +1,65 @@
-
+* {
+    margin: 0;
+    padding: 0;
+}
 body {
-    background-color: black;
-    width: 100%;
+    background-color: #27044B;
 }
 main {
-    height: 6000px;
-    background-color: blueviolet;
-    width: 100%;
-    height: 100%;
+    height:auto;
+    background-color: #E0C3FF;
 }
-
-
-.header  {
+header {
     background-color: #27044B;
     position: fixed;
     top: 0;
-    transition: 0.2s;
+    transition: 0.5s;
     width: 100%;
+    height: auto;
+}
+
+.header  {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 50px;
 } 
 
+.header img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+}
 
-Header a {
+.header a {
     text-decoration: none;
-    position: relative;
-    bottom: 10px;
     font-size: 20px;
     color: white;
-}
-.box {
-    display: inline-block;
-    margin-left: 30px;
-    right: 300px;
     padding: 0 50px;
 }
 
-.img2 {
-    width: 100%;
-    height: 400px;
-}
-.img1 {
-    position: relative;
-    top: 40px;
-    left: 20px;
+.header a:hover{
+    background-color: aqua;
+    color: black;
+    border-radius: 100px;
 }
 
+.header ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.img2 {
+    width: 100%;
+    height: 800px;
+    margin: 0;
+}
 .contacto {
     text-align: center;
-    top: 240px;
     right: 600px;
+    background-color: #27044B;
+    margin: 0;
 
 }  
 
@@ -61,16 +73,17 @@ Header a {
 .form1 {
     background-color: #E0C3FF;;
     height: 1000px;
-    padding: 100px 0;
-    justify-content: center;
+    padding: 100px 0; 
 }
 .form {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-column: auto;
-    background-color: #E0C3FF;;
-    height: 850px;
-    padding: 100px 0;
+    background-color: #E0C3FF;
+    height: auto;
+    gap: 100px;
+    display: flex;
+    justify-content: center;
 }
 .form h1 {
     margin: 50px;
@@ -79,6 +92,9 @@ Header a {
     border: solid black;
     padding: 50px 0;
     background-color: bisque;
+    display: flex;
+    padding: 50px 100px;
+
 }
 
 /* Pie de Firma */
@@ -101,20 +117,35 @@ Header a {
     color: white;
 }
 
-.grupo1 .box1 {
-    display: inline-block;
+.grupo1 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    padding-bottom: 100px;
+    padding-left: 200px;
+    padding-right: 300px;
+    margin: 0;
 }
 
-.grupo1 {
-    padding-bottom: 100px;
-    justify-content: center;
-    font-size: large;
+.grupo1 .box1 ul {
+    list-style-type: none;
+}
+
+.box1 a {
+    padding: 25px 0;
 }
 
 .grupo1 .box1 a{
     text-decoration: none;
     color: white;
 }
+
+.grupo1 .box1 a:hover {
+    background-color: aqua;
+    color: black;
+    border-radius: 100px;
+}
+
 
 /* FORMATO DISPOSITIVO MOVIL */
 
