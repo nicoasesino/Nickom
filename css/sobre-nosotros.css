@@ -104,6 +104,8 @@ header {
 .tag1 {
     margin: auto;
     background-color: cornflowerblue;
+    width: 100%;
+    color: black;
 
 }
 

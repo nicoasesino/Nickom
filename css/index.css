@@ -7,6 +7,7 @@ body {
 }
 main {
     height:auto;
+    width: 100%;
     background-color: #E0C3FF;
 }
 header {
@@ -106,7 +107,7 @@ header {
 
 
 .tag1 {
-    margin: 0;
+    margin: auto;
     background-color: cornflowerblue;
 }
 
@@ -142,9 +143,6 @@ header {
     text-align: center;
     padding: 50px 0;
 }
-
-
-
 .main {
     padding: 100px 0;
     display: grid;
