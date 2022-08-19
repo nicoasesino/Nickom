@@ -8,6 +8,7 @@ body {
 main {
     height:auto;
     background-color: #E0C3FF;
+    margin: auto;
 }
 header {
     background-color: #27044B;
@@ -143,10 +144,6 @@ header {
     padding: 50px 0;
 }
 
-.inicio4 a {
-    text-decoration: none;
-    margin: 60px 0;
-}
 
 
 .main {
@@ -155,5 +152,4 @@ header {
     grid-template-columns: repeat(4, 1fr);
     gap: 50px;
     align-content: center;
-    justify-content: center;
 }
