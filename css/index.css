@@ -8,7 +8,6 @@ body {
 main {
     height:auto;
     background-color: #E0C3FF;
-    margin: auto;
 }
 header {
     background-color: #27044B;
@@ -152,4 +151,6 @@ header {
     grid-template-columns: repeat(4, 1fr);
     gap: 50px;
     align-content: center;
+    justify-content: center;
+    margin: auto;
 }
