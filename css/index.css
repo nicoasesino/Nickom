@@ -1,12 +1,13 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body {
     background-color: #27044B;
 }
 main {
-    height:auto;
+    height:auto;    
     width: 100%;
     background-color: #E0C3FF;
 }
@@ -52,7 +53,7 @@ header {
 
 .img2 {
     width: 100%;
-    height: 800px;
+    height: 600px;
     margin: 0;
 }
 
@@ -62,7 +63,6 @@ header {
     background-color: #27044B;
     width: 100%;
     color: white;
-    padding-top: 150px;
 }
 
 .piedefirma .grupo2 {
@@ -70,6 +70,7 @@ header {
     background-color: black;
     font-size: 20px;
     justify-content: center
+
 }
 
 .grupo2 a {
@@ -78,17 +79,20 @@ header {
 }
 
 .grupo1 {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    justify-items: center;
-    padding-bottom: 100px;
-    padding-left: 200px;
-    padding-right: 300px;
-    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 200px;
 }
-
 .grupo1 .box1 ul {
     list-style-type: none;
+}
+
+.grupo1 .box1 ul li {
+    padding: 5px 0;
+}
+
+.grupo1 .box1 h4 {
+    padding: 10px 0;
 }
 
 .grupo1 .box1 a{
@@ -133,7 +137,7 @@ header {
 }
 .inicio3 {
     background-color: blanchedalmond;
-    border: solid black;
+    border: groove black;
     text-align: center;
     padding: 50px 0;
 }
@@ -144,8 +148,38 @@ header {
     padding: 50px 0;
 }
 .main {
-    padding: 100px 0;
+    padding: 100px 100px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 50px;
+}
+
+
+@media screen and (max-width: 600px) {
+    .header {
+        width: 100%;
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .header ul {
+        display: block;
+        
+    }
+
+    main {
+        width: 100%;
+    }
+   .main {
+    display: grid;
+    grid-template-columns: 1fr;
+   } 
+    .piedefirma .grupo1 {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
 }
