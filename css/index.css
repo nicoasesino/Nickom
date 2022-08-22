@@ -270,9 +270,9 @@ header {
     }    
 }
 
-@media screen and (max-width: 360px){ 
+@media only screen and (-webkit-min-device-pixel-ratio: 4){ 
     .header {
-        width: 360;
+        width: 50%;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -283,7 +283,7 @@ header {
         align-items: center;
     }
     main {
-        width: 360;
+        width: 100%;
     }
    .paginas {
     display: grid;
@@ -294,7 +294,7 @@ header {
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 360;
+        width: 100%;
         margin: 20px auto;
     }    
 }
