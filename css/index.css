@@ -206,9 +206,9 @@ header {
 
 .paginas {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 50px;
-    width: 1200px;
+    width: 700px;
     margin: 0 auto;
     padding: 100px 0;
 
@@ -243,29 +243,58 @@ header {
   }
 @media screen and (max-width: 384px){ 
     .header {
-        width: 384px;
+        width: auto;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
     }
     .header ul {
-        display: flex;
+        display: auto ;
         flex-direction: column;
         align-items: center;
     }
     main {
-        width: 384px;
+        width: auto;
     }
    .paginas {
     display: grid;
     grid-template-columns: 1fr;
-    width: 384px;
+    width: auto;
    } 
     .piedefirma .grupo1 {
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 384px;
+        width: auto;
+        margin: 20px auto;
+    }    
+}
+
+@media screen and (max-width: 360px){ 
+    .header {
+        width: 360;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .header ul {
+        display: flex ;
+        flex-direction: column;
+        align-items: center;
+    }
+    main {
+        width: 360;
+    }
+   .paginas {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: auto;
+   } 
+    .piedefirma .grupo1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 360;
         margin: 20px auto;
     }    
 }
