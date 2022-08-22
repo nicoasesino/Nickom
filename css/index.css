@@ -209,7 +209,7 @@ header {
     grid-template-columns: repeat(3, 1fr);
     gap: 50px;
     width: 1200px;
-    margin: auto;
+    margin: 0 auto;
     padding: 100px 0;
 
 }
@@ -243,13 +243,15 @@ header {
   }
 @media screen and (max-width: 384px){ 
     .header {
-        width: 300px;
-        margin-left: 0;
+        width: 384px;
         display: flex;
         flex-direction: column;
+        align-items: flex-start;
     }
     .header ul {
-        display: block;      
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     main {
         width: 384px;
