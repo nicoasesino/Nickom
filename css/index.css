@@ -201,16 +201,16 @@ header {
 
 .main {
     background: url(/assets/images/tecnologia2.webp) no-repeat center center/cover;
-    height: 900px;
+    height: auto;
 }
 
 .paginas {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 50px;
-    width: 100%;
-    padding-top: 300px;
-
+    width: 1200px;
+    margin: auto;
+    padding: 100px 0;
 
 }
 .statistics {
@@ -243,28 +243,27 @@ header {
   }
 @media screen and (max-width: 384px){ 
     .header {
-        width: 100%;
+        width: 300px;
         margin-left: 0;
         display: flex;
         flex-direction: column;
-        align-items: center;
-        justify-content: flex-start;
     }
     .header ul {
         display: block;      
     }
     main {
-        width: 100%;
+        width: 384px;
     }
-   .main {
+   .paginas {
     display: grid;
     grid-template-columns: 1fr;
+    width: 384px;
    } 
     .piedefirma .grupo1 {
         display: flex;
         flex-direction: column;
+        align-items: center;
+        width: 384px;
+        margin: 20px auto;
     }    
-    .grupo1 .box1 {
-        display: inline;
-    }
 }
