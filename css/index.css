@@ -274,7 +274,8 @@ header {
         margin: 20px auto;
     }
     .tag1 {
-        margin-top: 300px;
+        margin-top: 200px;
+        width: 100%;
     }
     .header ul {
         display: flex ;
@@ -287,6 +288,7 @@ header {
 
     .main {
         width:700px;
+        padding: 100px 100px;
     }
    .paginas {
     display: grid;
