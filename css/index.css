@@ -279,12 +279,12 @@ header {
         align-items: center;
     }
     main {
-        width: 100%;
+        width: 700px%;
     }
    .paginas {
     display: grid;
     grid-template-columns: 1fr;
-    width: 1200px;
+    width: 700px;
    } 
     .piedefirma .grupo1 {
         display: flex;
