@@ -268,7 +268,7 @@ header {
 
  @media screen and (max-width: 1200px){ 
     body {
-        width: 120%;
+        width: 105%;
     }
     .header {
         display: flex;
@@ -291,7 +291,7 @@ header {
     }
 
     .header ul li a {
-        padding: 0 10px;
+        padding: 0 50px;
     }
    .paginas {
     display: grid;
@@ -303,7 +303,7 @@ header {
     }
     .piedefirma .grupo1 {
         display: flex;
-        flex-direction: column;
+        justify-content: space-between;
         align-items: center;
         width: 100%;
         margin: 20px auto;
