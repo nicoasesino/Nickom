@@ -330,8 +330,8 @@ header {
     }
     .header ul {
         display: flex ;
-        align-items: center;
-        
+        align-items: flex-start;
+
     }
 
     .header ul li a {
