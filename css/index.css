@@ -311,7 +311,7 @@ header {
     }
 }
 
-@media screen and (max-width: 710px){ 
+@media screen and (max-width: 680px){ 
     .header {
         display: flex;
         flex-direction: column;
