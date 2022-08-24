@@ -340,13 +340,10 @@ header {
         .header ul li a {
             padding: 0 10px;
         }
-    
-        .main {
-            width:100%;
-        }
        .paginas {
         display: grid;
         grid-template-columns: 1fr;
+        width: auto;
        } 
         .piedefirma {
             width: 100%;
