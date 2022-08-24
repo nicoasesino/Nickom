@@ -346,6 +346,9 @@ header {
         grid-template-columns: 1fr;
         width: 100%;
        } 
+        .piedefirma {
+            width: 100%;
+        }
         .piedefirma .grupo1 {
             display: flex;
             flex-direction: column;
@@ -353,4 +356,6 @@ header {
             width: 100%;
             margin: 20px auto;
         }    
+        .statistics {
+            width: 100%;
     }
