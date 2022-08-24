@@ -314,7 +314,7 @@ header {
 
 @media screen and (max-width: 700px){ 
         body {
-            width: 700px;
+            width: auto;
         }
         .header {
             display: flex;
