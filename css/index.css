@@ -157,7 +157,13 @@ header {
     width: 100%;
     color: white;
     margin-bottom: 350px;
+    animation-duration: 3s;
+    animation-name: prueba1;
 }
+
+
+
+
 .card {
     background-color: #fff;
     padding: 20px;
@@ -165,6 +171,8 @@ header {
     box-shadow: 0 25px 50px -12px rgba(10, 10, 10, 100%);
     transition: all 500ms ease;
     cursor: default;
+    animation-duration: 3s;
+    animation-name: prueba1;
   }
 
   .card:hover {
@@ -264,6 +272,21 @@ header {
     margin-top: 5px;
   }
 
+
+  @keyframes prueba1 {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+
+
  /* CELULARES */ 
 
  @media screen and (max-width: 1200px){ 
@@ -359,3 +382,20 @@ header {
             width: 100%;
     }
 }
+
+
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+    animation-duration: 3s;
+    animation-name: prueba1;
+  }
+  
+  .reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+    animation-duration: 3s;
+    animation-name: prueba1;
+  }
