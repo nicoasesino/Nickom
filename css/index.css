@@ -326,7 +326,6 @@ header {
         }
         .tag1 {
             margin-top: 200px;
-            width: 100%;
         }
     
         .empresa {
@@ -336,6 +335,10 @@ header {
             display: flex ;
             flex-direction: center;
             align-items: center;
+        }
+
+        .header ul li a {
+            padding: 0 2px;
         }
     
         .main {
