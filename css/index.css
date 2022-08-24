@@ -4,12 +4,16 @@
     box-sizing: border-box;
 }
 body {
-    background-color: #27044B;
     font-family: 'Mulish', sans-serif;
+    background: url(/assets/images/banner3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 header {
-    background-color: #4c2673;
+    background-color: #1f0737;
     position: fixed;
     top: 0;
     transition: 0.10s;
@@ -49,19 +53,14 @@ header {
 
 
 .img2 {
-    width: 100%;
+    width: 50%;
     height: 500px;
-    margin: 0;
-    background: url(/assets/images/tecnologia1.webp);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
+    margin: 25% 25%;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     text-align: center;
-    border-radius: 100%;
+    border-radius: 80%;
 
 }
 
@@ -69,8 +68,7 @@ header {
 /* Footer */
 
 .espacio_footer {
-    background-color: black;
-    height: 100px;
+    margin: 100px auto;
     width: 100%;
     display: flex;
     justify-content: start;
@@ -78,6 +76,7 @@ header {
     align-items: center;
     font-size: 30px;
     font-style: italic; 
+    color: white;
 }
 
 .espacio_footer .redes_sociales {
@@ -88,11 +87,13 @@ header {
 }
 
 .redes_sociales i {
-    padding: 15px 30px ;
+    padding: 40px 40px ;
     font-size: 30px;
 }
+
+
 .piedefirma {
-    background-color: #27044B;
+    background-color: #161624;
     width: 100%;
     color: white;
 }
@@ -113,7 +114,7 @@ header {
 .grupo1 {
     display: flex;
     justify-content: space-between;
-    margin: 100px 200px;
+    padding: 100px;
 }
 .grupo1 .box1 ul {
     list-style-type: none;
@@ -135,7 +136,11 @@ header {
 .grupo1 .box1 a:hover {
     background-color: aqua;
     color: black;
-    border-radius: 400px;
+    border-bottom: 100px;
+}
+
+.box1 .box2 {
+    border-radius: 50px;
 }
 
 
@@ -145,7 +150,6 @@ header {
 .tag1 {
     margin-top: 30px;
     margin-bottom: 0;
-    background-color: darkmagenta;
 
 
 }
@@ -167,6 +171,7 @@ header {
   .card:hover {
     box-shadow: 0 25px 50px -12px red;
     transform: translateY(-5%);
+    transform: rotate(360);
 
   }
   
@@ -220,14 +225,6 @@ header {
     position: relative;
   }
 
-.main {
-    background: url(/assets/images/tecnologia2.webp);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
 .paginas {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -237,10 +234,12 @@ header {
     padding: 100px 0;
 
 }
+/* BANNER 3*/
 .statistics {
     margin-top: 80px;
     padding: 100px 20px;
-    background-image: url('/assets/images/banner.jpeg');
+    margin-bottom: 80px;
+    background-image: url('/assets/images/banner4.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -256,7 +255,7 @@ header {
   }
   
   .statistics__content-data {
-    font-size: 40px;
+    font-size: 60px;
     text-align: center;
   }
   
@@ -265,7 +264,10 @@ header {
     font-size: 20px;
     margin-top: 5px;
   }
-@media screen and (max-width: 700px){ 
+
+ /* CELULARES */ 
+
+ @media screen and (max-width: 1000px){ 
     .header {
         display: flex;
         flex-direction: column;
@@ -283,9 +285,60 @@ header {
     }
     .header ul {
         display: flex ;
+        align-items: center;
+        margin-top: 30px;
+    }
+    main {
+        width: 100%;
+    }
+
+    .main {
+        width:100%;
+    }
+   .paginas {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+   } 
+    .piedefirma .grupo1 {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        margin: 20px auto;
+    }    
+    .statistics {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 700px){ 
+    .header {
+        display: flex;
         flex-direction: column;
         align-items: center;
+        width: 100%;
+        margin: 20px auto;
+        padding: 0;
     }
+    .tag1 {
+        margin-top: 200px;
+        width: 100%;
+    }
+
+    .empresa {
+        margin-bottom: 100px;
+    }
+    .header ul {
+        display: flex ;
+        align-items: center;
+        
+    }
+
+    .header ul li a {
+        padding: 0 20px;
+        margin: 10px 0;
+    }
+    
     main {
         width: 100%;
     }
@@ -306,3 +359,4 @@ header {
         margin: 20px auto;
     }    
 }
+
