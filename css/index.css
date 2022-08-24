@@ -347,7 +347,6 @@ header {
        .paginas {
         display: grid;
         grid-template-columns: 1fr;
-        width: 150%;
        } 
         .piedefirma {
             width: 100%;
