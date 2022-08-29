@@ -493,10 +493,10 @@ header {
 }
  }
 
-@media screen and (max-width: 425px){ 
+@media screen and (max-width: 768px){ 
         
         body {
-            width: 100%;
+            width: auto;
         }   
         .header {
             display: flex;
