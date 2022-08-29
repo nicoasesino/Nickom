@@ -479,7 +479,7 @@ header {
 @media screen and (max-width: 768px){ 
         
         body {
-            width: 768px;
+            width: 100%;
         }   
         .header {
             display: flex;
@@ -500,12 +500,12 @@ header {
        .paginas {
         display: grid;
         grid-template-columns: 1fr;
-        margin:0 auto;
+        width: 100%;
        } 
        .form {
         display: grid;
         grid-template-columns: 1fr;
-        width: 768px;
+        width: 100%;
        }
         
         iframe {
@@ -514,7 +514,7 @@ header {
        .bar {
         display: grid;
         grid-template-columns: 1fr;
-        width: 768px;
+        width: 100%;
        }
         .piedefirma .grupo1 {
             display: flex;
