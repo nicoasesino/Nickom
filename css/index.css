@@ -476,13 +476,13 @@ header {
 }
  }
 
-@media screen and (max-width: 650px){ 
+@media screen and (max-width: 600px){ 
         * {
             margin: 0;
             padding: 0;
         }
         body {
-            max-width: 650px;
+            max-width: 600px;
             max-height: auto;
         }
         .header {
@@ -507,6 +507,7 @@ header {
 
         .header ul li a {
             padding: 0 2px;
+            margin:0 auto;
         }
        .paginas {
         display: grid;
@@ -525,7 +526,7 @@ header {
        .bar {
         display: grid;
         grid-template-columns: 1fr;
-        width: 100%;
+        margin:0 auto;
        }
         .piedefirma .grupo1 {
             display: flex;
