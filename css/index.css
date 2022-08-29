@@ -502,7 +502,7 @@ header {
         }
 
         .header ul li a {
-            padding: 0 5px;
+            padding: 0 2px;
         }
        .paginas {
         display: grid;
@@ -513,8 +513,11 @@ header {
         display: grid;
         grid-template-columns: 1fr;
         width: 100%;
-
        }
+        
+        iframe {
+            margin:0 auto;
+        }
        .bar {
         display: grid;
         grid-template-columns: 1fr;
