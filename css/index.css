@@ -474,9 +474,9 @@ header {
 }
  }
 
-@media screen and (max-width: 768px){ 
+@media (max-width: 768px){ 
         body {
-            width: 105%;
+            width: 100%;
         }
         .header {
             display: flex;
@@ -504,7 +504,6 @@ header {
         display: grid;
         grid-template-columns: 1fr;
        }
-        
        .bar {
             display: grid;
             grid-template-columns: 1fr;
