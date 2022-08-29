@@ -514,6 +514,9 @@ header {
             padding: 0 2px;
             margin:0 auto;
         }
+        .empresa {
+            width: 100%;
+        }
        .paginas {
         display: grid;
         grid-template-columns: 1fr;
