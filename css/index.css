@@ -476,7 +476,10 @@ header {
 }
  }
 
-/* @media screen and (max-width: 700px){ 
+@media screen and (max-width: 700px){ 
+        * {
+            max-width: 680px;
+        }
         .header {
             display: flex;
             flex-direction: column;
@@ -518,7 +521,7 @@ header {
             align-items: center;
             margin: 20px auto;
         }    
-} */
+}
 
 
 /* .reveal{
