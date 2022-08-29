@@ -476,14 +476,7 @@ header {
 }
  }
 
-@media screen and (max-width: 700px){ 
-        * {
-            max-width: 680px;
-        }
-        header {
-            margin-left: 0;
-            margin-right: 0;
-        }
+@media screen and (max-width: 800px){ 
         .header {
             display: flex;
             flex-direction: column;
