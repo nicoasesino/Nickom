@@ -481,9 +481,6 @@ header {
             margin: 0;
             padding: 0;
         }
-        body {
-            max-height: auto;
-        }
         .header {
             display: flex;
             flex-direction: column;
