@@ -212,9 +212,6 @@ header {
     animation-name: prueba1;
 }
 
-
-
-
 .card {
     background-color: #fff;
     padding: 20px;
@@ -229,7 +226,6 @@ header {
     box-shadow: 0 25px 50px -12px red;
     transform: translateY(-5%);
     transform: rotate(360);
-
   }
   
   .card__title {
@@ -483,16 +479,8 @@ header {
 @media screen and (max-width: 700px){ 
         body {
             max-width: 700px;
+            max-height: auto;
         }
-        header {
-            background-color: #1f0737;
-            position: fixed;
-            top: 0;
-            transition: 0.10s;
-            width: 100%;
-            opacity: 0.9;
-        }
-    
         .header {
             display: flex;
             flex-direction: column;
@@ -514,13 +502,23 @@ header {
         }
 
         .header ul li a {
-            padding: 0 10px;
+            padding: 0 5px;
         }
        .paginas {
         display: grid;
         grid-template-columns: 1fr;
         width: auto;
        } 
+       .form1 {
+        display: grid;
+        grid-template-columns: 1fr;
+        max-width: 700px;
+       }
+       .bar {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: auto;
+       }
         .piedefirma {
             width: 100%;
         }
