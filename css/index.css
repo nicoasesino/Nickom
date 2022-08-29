@@ -478,14 +478,17 @@ header {
         header {
             width: 100%;
             max-width: 100%;
+            margin-left: 0;
         }
         main {
             width: 100%;
             max-width: 100%;
+            margin-right: 0;
         }
         footer {
             width: 100%;
             max-width: 100%;
+            margin-right: 0;
         }
         .header {
             display: flex;
