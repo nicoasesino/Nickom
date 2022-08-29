@@ -46,7 +46,7 @@
     background-size: cover;
     background-attachment: fixed;
     margin: 0;
-    height: 1000px;
+    height: 1200px;
 }
 .gsuite-gcloud-html {
     font-family: 'Mulish', sans-serif;
@@ -356,19 +356,25 @@ header {
 
 }
 .form1 {
-    background-color: #E0C3FF;;
-    height: 1000px;
-    padding: 100px 0; 
+    margin: 100px auto;
+    height: 1200px;
+    max-width: 1200px;
+    opacity: 0.9;
 }
 .form {
+    margin-top: 500px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-column: auto;
-    background-color: #E0C3FF;
-    height: auto;
+    background-color: burlywood;
+    padding: 300px auto;
     gap: 100px;
     display: flex;
     justify-content: center;
+}
+.form iframe {
+    padding: 40px 0;
+    height: 1100px;
 }
 .form h1 {
     margin: 50px;
@@ -379,6 +385,7 @@ header {
     background-color: bisque;
     display: flex;
     padding: 50px 100px;
+    border-radius: 10px;
 
 }
 
