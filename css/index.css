@@ -476,22 +476,13 @@ header {
 
 @media (max-width: 768px){ 
         header {
-            width: 100%;
-            max-width: 100%;
-            margin-left: 0;
-            margin-right: 0;
+            width: 102%;
         }
         main {
-            width: 100%;
-            max-width: 100%;
-            margin-left: 0;
-            margin-right: 0;
+            width: 102%;
         }
         footer {
-            width: 100%;
-            max-width: 100%;
-            margin-left: 0;
-            margin-right: 0;
+            width: 102%;
         }
         .header {
             display: flex;
