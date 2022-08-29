@@ -1,9 +1,13 @@
+/* ============================================================================================================================================================================= */
+/* CONFIGURACIONES GLOBALES */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body {
+
+/* BODY POR PAGINA WEB */
+.index-html {
     font-family: 'Mulish', sans-serif;
     background: url(/assets/images/banner3.jpg);
     background-repeat: no-repeat;
@@ -13,7 +17,50 @@ body {
     margin: 0;
     height: 5000px;
 }
+.sobre-nosotros-html {
+    font-family: 'Mulish', sans-serif;
+    background: url(/assets/images/banner3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    height: 1000px;
+}
+.servicios-html {
+    font-family: 'Mulish', sans-serif;
+    background: url(/assets/images/banner3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    height: 1000px;
+}
 
+.contacto-html {
+    font-family: 'Mulish', sans-serif;
+    background: url(/assets/images/banner3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    height: 1000px;
+}
+.gsuite-gcloud-html {
+    font-family: 'Mulish', sans-serif;
+    background: url(/assets/images/banner3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    height: 1000px;
+}
+
+/* ============================================================================================================================================================================= */
+/* HEADER */
 header {
     background-color: #1f0737;
     position: fixed;
@@ -67,7 +114,8 @@ header {
 }
 
 
-/* Footer */
+/* ============================================================================================================================================================================= */
+/* FOOTER */
 
 .espacio_footer {
     margin: 100px auto;
@@ -147,8 +195,8 @@ header {
     border-radius: 50px;
 }
 
-
-/* Gsuite */
+/* ============================================================================================================================================================================= */
+/* INICIO */
 
 
 .tag1 {
@@ -175,7 +223,6 @@ header {
     transition: all 500ms ease;
     cursor: default;
     animation-duration: 3s;
-    animation-name: prueba1;
   }
 
   .card:hover {
@@ -288,6 +335,93 @@ header {
     }
   }
 
+/* ============================================================================================================================================================================= */
+/* SOBRE NOSOTROS */
+
+/* ============================================================================================================================================================================= */
+/* CONTACTO */
+.contacto {
+    text-align: center;
+    right: 600px;
+    background-color: #27044B;
+    margin: 0;
+
+}  
+
+.contacto a {
+    color: white;
+    font-size: 50px;
+    text-decoration: none;
+
+
+}
+.form1 {
+    background-color: #E0C3FF;;
+    height: 1000px;
+    padding: 100px 0; 
+}
+.form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column: auto;
+    background-color: #E0C3FF;
+    height: auto;
+    gap: 100px;
+    display: flex;
+    justify-content: center;
+}
+.form h1 {
+    margin: 50px;
+    color: black;
+    text-align: center;
+    border: solid black;
+    padding: 50px 0;
+    background-color: bisque;
+    display: flex;
+    padding: 50px 100px;
+
+}
+
+/* ============================================================================================================================================================================= */
+/* GSUITE-GCLOUD */
+.bar  {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 auto;
+    gap: 50px;
+    height: 500px;
+    max-width: 1000px;
+}
+
+.texto1 h1 {
+    text-align: center;
+}
+.texto h1 {
+    text-align: center;
+
+
+}
+.texto h1 a {
+    text-decoration: none;
+    color: white;
+}
+
+.texto {
+    border: solid;
+    padding: 30px 30px;
+    background-color: cadetblue;
+    border-radius: 10px;
+    color: white;
+}
+.texto1 {
+    border: solid;
+    padding: 30px 30px;
+    background-color: coral;
+    border-radius: 10px;
+    color: white;
+
+}
 
 
  /* CELULARES */ 
@@ -396,7 +530,7 @@ header {
 }
 
 
-.reveal{
+/* .reveal{
     position: relative;
     transform: translateY(150px);
     opacity: 0;
@@ -410,4 +544,4 @@ header {
     opacity: 1;
     animation-duration: 3s;
     animation-name: prueba1;
-  }
+  } */
