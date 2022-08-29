@@ -480,6 +480,10 @@ header {
         * {
             max-width: 680px;
         }
+        header {
+            margin-left: 0;
+            margin-right: 0;
+        }
         .header {
             display: flex;
             flex-direction: column;
@@ -490,7 +494,7 @@ header {
             display: flex ;
             flex-direction: center;
             align-items: center;
-            margin:0 auto;
+            margin:10px 0;
         }
         .header ul li a {
             padding: 0 2px;
