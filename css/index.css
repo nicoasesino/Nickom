@@ -494,7 +494,9 @@ header {
  }
 
 @media screen and (max-width: 768px){ 
-    
+        * {
+            width: 102%;
+        }
         .header {
             display: flex;
             flex-direction: column;
@@ -516,20 +518,15 @@ header {
        .paginas {
         display: grid;
         grid-template-columns: 1fr;
-        width: 105%;
        } 
        .form {
         display: grid;
         grid-template-columns: 1fr;
-        width: 105%;
        }
         
        .bar {
             display: grid;
             grid-template-columns: 1fr;
-       }
-       .piedefirma {
-            width: 105%;
        }
         .piedefirma .grupo1 {
             display: flex;
