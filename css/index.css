@@ -15,11 +15,7 @@
     background-size: cover;
     background-attachment: fixed;
     margin: 0;
-    width: 100%;
-    height: 5000px;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;    
+    height: 5000px; 
 }
 .sobre-nosotros-html {
     font-family: 'Mulish', sans-serif;
@@ -29,11 +25,7 @@
     background-size: cover;
     background-attachment: fixed;
     margin: 0;
-    width: 100%;
     height: 1000px;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 }
 .servicios-html {
     font-family: 'Mulish', sans-serif;
@@ -44,12 +36,7 @@
     background-attachment: fixed;
     margin: 0;
     height: 1000px;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 }
-
 .contacto-html {
     font-family: 'Mulish', sans-serif;
     background: url(/assets/images/banner3.jpg);
@@ -59,7 +46,6 @@
     background-attachment: fixed;
     margin: 0;
     height: 1200px;
-    width: 100%;
 }
 .gsuite-gcloud-html {
     font-family: 'Mulish', sans-serif;
@@ -70,12 +56,7 @@
     background-attachment: fixed;
     margin: 0;
     height: 1000px;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 }
-
 /* ============================================================================================================================================================================= */
 /* HEADER */
 header {
@@ -448,7 +429,7 @@ header {
 
  @media screen and (max-width: 1200px){ 
     body {
-        width: 105%;
+        width: 102%;
     }
     .header {
         display: flex;
