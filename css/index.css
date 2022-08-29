@@ -485,7 +485,6 @@ header {
             display: flex;
             flex-direction: column;
             align-items: center;
-            width: 100%;
             margin: 20px auto;
         }
         .tag1 {
@@ -499,6 +498,7 @@ header {
             display: flex ;
             flex-direction: center;
             align-items: center;
+            margin:0 auto;
         }
 
         .header ul li a {
@@ -512,7 +512,7 @@ header {
        .form {
         display: grid;
         grid-template-columns: 1fr;
-        width: 100%;
+        margin:0 auto;
        }
         
         iframe {
@@ -534,7 +534,7 @@ header {
             margin: 20px auto;
         }    
         .statistics {
-            width: 100%;
+            margin:0 auto;
     }
 }
 
