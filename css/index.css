@@ -488,12 +488,10 @@ header {
         display: grid;
         grid-template-columns: 1fr;
         width: 100%;
-
     }
-    iframe {
-        margin-left: 70px;
+    .form1 {
+        width: 100%;
     }
-
 
     .bar {
         display: grid;
