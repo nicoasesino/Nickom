@@ -295,16 +295,13 @@ header {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-column: auto;
-    background-color: burlywood;
     padding: 300px auto;
     gap: 100px;
-    margin: 0 auto;
 }
 .form iframe {
     height: 1100px;
 }
 .form h1 {
-    margin: 50px;
     color: black;
     text-align: center;
     border: solid black;
