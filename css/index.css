@@ -469,6 +469,7 @@ header {
    } 
    .piedefirma {
         height: auto;
+        width: 100%;
    }
     .piedefirma .grupo1 {
         display: flex;
