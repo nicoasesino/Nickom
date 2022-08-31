@@ -112,7 +112,6 @@ header {
     background-color: black;
     font-size: 20px;
     justify-content: center
-
 }
 
 .grupo2 a {
@@ -124,6 +123,9 @@ header {
     display: flex;
     justify-content: space-between;
     margin: 100px 200px;
+}
+.grupo1 .box1 figure .img1 {
+    border-radius: 100px;
 }
 .grupo1 .box1 ul {
     list-style-type: none;
@@ -151,9 +153,6 @@ header {
 
 /* ============================================================================================================================================================================= */
 /* INICIO */
-
-
-
 .card {
     background-color: #fff;
     padding: 20px;
@@ -258,6 +257,113 @@ header {
     margin-top: 5px;
   }
 
+ /* ============================================================================================================================================================================= */
+/* SOBRE NOSOTROS */
+
+/* ============================================================================================================================================================================= */
+/* SERVICIOS */
+
+/* ============================================================================================================================================================================= */
+/* CONTACTO */
+.contacto {
+    text-align: center;
+    right: 600px;
+    background-color: #27044B;
+    margin: 0;
+
+}  
+
+.contacto a {
+    color: white;
+    font-size: 50px;
+    text-decoration: none;
+
+
+}
+.form1 {
+    margin: 100px auto;
+    height: 1200px;
+    max-width: 1200px;
+    opacity: 0.9;
+    height: auto;
+}
+.form {
+    margin-top: 500px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column: auto;
+    background-color: burlywood;
+    padding: 300px auto;
+    gap: 100px;
+    margin: 0 auto;
+}
+.form iframe {
+    height: 1100px;
+}
+.form h1 {
+    margin: 50px;
+    color: black;
+    text-align: center;
+    border: solid black;
+    padding: 50px 0;
+    background-color: bisque;
+    display: flex;
+    padding: 50px 100px;
+    border-radius: 10px;
+}
+
+/* ============================================================================================================================================================================= */
+/* GSUITE-GCLOUD */
+
+.banner-google {
+    width: 100%;
+    margin-top: 50px;
+    height: 500px;
+    margin-bottom: 150px;
+}
+
+.bar  {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 auto;
+    gap: 50px;
+    height: 500px;
+    max-width: 1000px;
+}
+
+.texto1 h1 {
+    text-align: center;
+}
+.texto h1 {
+    text-align: center;
+
+
+}
+.texto h1 a {
+    text-decoration: none;
+    color: white;
+}
+
+.texto {
+    border: solid;
+    padding: 30px 30px;
+    background-color: cadetblue;
+    border-radius: 10px;
+    color: white;
+}
+.texto1 {
+    border: solid;
+    padding: 30px 30px;
+    background-color: coral;
+    border-radius: 10px;
+    color: white;
+
+}
+
+/* ============================================================================================================================================================================= */
+/* DISPOSITIVOS MOVILES */
+
 @media screen and (max-width: 1200px){ 
     .header {
         display: flex;
@@ -297,10 +403,34 @@ header {
         display: flex;
         flex-direction: row;
         align-items: center;
-        width: 80%;
+        width: 100%;
         padding: 100px 100px;
         margin: 20px auto;
+        height: auto;
+    }
+    .banner-google {
+        width: 100%;
+        margin-top: 115px;
+        height: 400px;
+        margin-bottom: 150px;
     }    
+    .bar {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: auto;
+        width: 900px;
+    }
+    .form1 {
+        width: 900px;
+
+    }
+    .form {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 0 auto;
+        gap: 0;
+        width: 100%;
+    }
 }  
 @media screen and (max-width: 700px){ 
     .header {
@@ -339,14 +469,39 @@ header {
    } 
    .piedefirma {
         height: 100px;
+        height: auto;
    }
     .piedefirma .grupo1 {
         display: flex;
         flex-direction: column;
         align-items: center;
         width: 100%;
+        height: auto;
     }    
     .tag1 {
         margin-top: 95px;
+    }
+
+    .form {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+    .form1 h1 {
+        margin-left: 25px;
+    }
+    iframe {
+        margin-right: 40px;
+    }
+    .bar {
+        display: grid;
+        grid-template-columns: 1fr;
+        height: auto;
+    }
+    .banner-google {
+        width: 100%;
+        margin-top: 115px;
+        height: 400px;
+        margin-bottom: 150px;
     }
 }
