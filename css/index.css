@@ -334,7 +334,7 @@ header {
         align-items: center;
     }
     .header ul li a {
-        padding: 0 10px;
+        padding: 0 1px;
     }
     main {
         width: 100%;
