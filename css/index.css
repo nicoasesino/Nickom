@@ -490,7 +490,9 @@ header {
     .form1 {
         width: 100%;
     }
-
+    iframe {
+        margin-left: 50px;
+    }
     .bar {
         display: grid;
         grid-template-columns: 1fr;
