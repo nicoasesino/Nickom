@@ -17,16 +17,11 @@ body {
 
 /* ============================================================================================================================================================================= */
 /* HEADER */
-header {
+nav {
     background-color: #1f0737;
-    position: fixed;
-    top: 0;
-    transition: 0.10s;
-    width: 100%;
-    opacity: 0.9;
 }
 
-.header  {
+/* .header  {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -71,7 +66,7 @@ header {
     width: 100%;
     color: white;
     text-align: center;
-}
+} */
 
 /* ============================================================================================================================================================================= */
 /* FOOTER */
@@ -320,6 +315,7 @@ header {
     margin-top: 50px;
     height: 500px;
     margin-bottom: 150px;
+
 }
 
 .bar  {
@@ -328,7 +324,7 @@ header {
     grid-template-columns: repeat(2, 1fr);
     padding: 0 auto;
     gap: 50px;
-    height: 500px;
+    height: auto;
     max-width: 1000px;
 }
 
