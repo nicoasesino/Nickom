@@ -360,7 +360,7 @@ nav {
 /* ============================================================================================================================================================================= */
 /* DISPOSITIVOS MOVILES */
 
-@media screen and (max-width: 1200px){ 
+@media screen and (max-width: 1680px) and (max-height: 939px){ 
     .header {
         display: flex;
         flex-direction: column;
@@ -428,7 +428,7 @@ nav {
         width: 100%;
     }
 }  
-@media screen and (max-width: 700px){ 
+@media screen and (max-width: 412px) and (max-height: 775px){ 
     .header {
         display: flex;
         flex-direction: column;
