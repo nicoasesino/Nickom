@@ -1,0 +1,507 @@
+/* ============================================================================================================================================================================= */
+/* CONFIGURACIONES GLOBALES */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Mulish', sans-serif;
+    background: url(/assets/images/banner3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: auto;
+}
+
+/* ============================================================================================================================================================================= */
+/* HEADER */
+nav {
+    background-color: #1f0737;
+}
+
+/* .header  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 120px;
+} 
+
+.header img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+}
+
+.header a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding: 0 50px;
+}
+.header a:hover{
+    background-color: aqua;
+    color: black;
+    border-radius: 100px;
+}
+
+.header ul {
+    list-style: none;
+    display: flex;
+}
+
+.tag1 {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-top: 10px;
+    margin-bottom: 300px;
+}
+
+.empresa {
+    font-size: 50px;
+    width: 100%;
+    color: white;
+    text-align: center;
+} */
+
+/* ============================================================================================================================================================================= */
+/* FOOTER */
+
+.espacio_footer {
+    background: url(../assets/images/banner3.jpg) no-repeat center center/cover fixed;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+    font-style: italic; 
+    height: 500px;
+}
+
+.espacio_footer .redes_sociales {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.redes_sociales i {
+    padding: 15px 30px ;
+    font-size: 30px;
+}
+.piedefirma {
+    background-color: #1f0737;
+    width: 100%;
+    color: white;
+}
+
+.piedefirma .grupo2 {
+    text-align: center;
+    background-color: black;
+    font-size: 20px;
+    justify-content: center
+}
+
+.grupo2 a {
+    text-decoration: none;
+    color: white;
+}
+
+.grupo1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 200px;
+}
+.grupo1 .box1 figure .img1 {
+    border-radius: 100px;
+}
+.box3 {
+    border-radius: 100px;
+}
+.grupo1 .box1 ul {
+    list-style-type: none;
+}
+
+.grupo1 .box1 ul li {
+    padding: 5px 0;
+}
+
+.grupo1 .box1 h4 {
+    padding: 10px 0;
+}
+
+.grupo1 .box1 a{
+    text-decoration: none;
+    color: white;
+}
+
+.grupo1 .box1 a:hover {
+    background-color: aqua;
+    color: black;
+    border-radius: 400px;
+}
+
+
+/* ============================================================================================================================================================================= */
+/* INICIO */
+.card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 25px 50px -12px rgba(10, 10, 10, 100%);
+    transition: all 500ms ease;
+    cursor: default;
+  }
+
+  .card:hover {
+    box-shadow: 0 25px 50px -12px red;
+    transform: translateY(-5%);
+
+  }
+  
+  .card__title {
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .card__title a {
+    text-decoration: none;
+    color: #0d7795;
+    font-weight: bolder;
+  }
+  
+  .card__description {
+    margin-bottom: 40px;
+  }
+  
+  .card__link {
+    background-color: #22c55e;
+    display: inline-block;
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+    color: #e2e8f0;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+  .card__link a {
+    text-decoration: none;
+  }
+
+  .card__link:hover {
+    transform: translateY(-8%);
+    box-shadow: 0 25px 50px -12px red;
+    background-color: #27044B;
+
+  }
+  
+  .card__header-img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .card__header {
+    position: relative;
+  }
+
+
+.paginas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 100px 0;
+
+}
+.statistics {
+    margin-top: 80px;
+    padding: 100px 20px;
+    background-image: url('/assets/images/banner.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  .statistics__content {
+    color: #e2e8f0;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .statistics__content-data {
+    font-size: 40px;
+    text-align: center;
+  }
+  
+  .statistics__content-data span {
+    display: block;
+    font-size: 20px;
+    margin-top: 5px;
+  }
+
+ /* ============================================================================================================================================================================= */
+/* SOBRE NOSOTROS */
+
+/* ============================================================================================================================================================================= */
+/* SERVICIOS */
+
+/* ============================================================================================================================================================================= */
+/* CONTACTO */
+.contacto {
+    text-align: center;
+    right: 600px;
+    background-color: #27044B;
+    margin: 0;
+
+}  
+
+.contacto a {
+    color: white;
+    font-size: 50px;
+    text-decoration: none;
+
+
+}
+.form1 {
+    margin: 100px auto;
+    height: 1200px;
+    max-width: 1200px;
+    opacity: 0.9;
+    height: auto;
+}
+.form {
+    margin-top: 500px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column: auto;
+    padding: 300px auto;
+    gap: 100px;
+}
+.form iframe {
+    height: 1100px;
+}
+.form h1 {
+    color: black;
+    text-align: center;
+    border: solid black;
+    padding: 50px 0;
+    background-color: bisque;
+    display: flex;
+    padding: 50px 100px;
+    border-radius: 10px;
+}
+
+/* ============================================================================================================================================================================= */
+/* GSUITE-GCLOUD */
+
+.banner-google {
+    width: 100%;
+    margin-top: 50px;
+    height: 500px;
+    margin-bottom: 150px;
+
+}
+
+.bar  {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 auto;
+    gap: 50px;
+    height: auto;
+    max-width: 1000px;
+}
+
+.texto1 h1 {
+    text-align: center;
+}
+.texto h1 {
+    text-align: center;
+
+
+}
+.texto h1 a {
+    text-decoration: none;
+    color: white;
+}
+
+.texto {
+    border: solid;
+    padding: 30px 30px;
+    background-color: cadetblue;
+    border-radius: 10px;
+    color: white;
+}
+.texto1 {
+    border: solid;
+    padding: 30px 30px;
+    background-color: coral;
+    border-radius: 10px;
+    color: white;
+
+}
+
+/* ============================================================================================================================================================================= */
+/* DISPOSITIVOS MOVILES */
+
+@media screen and (max-width: 780px){ 
+    .header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: 20px auto;
+    }
+    .tag1 {
+        margin-top: 200px;
+        width: 100%;
+    }
+
+    .empresa {
+        margin-bottom: 100px;
+    }
+    .header ul {
+        display: flex ;
+        align-items: center;
+    }
+    .header ul li a {
+        padding: 0 50px;
+    }
+    main {
+        width: 100%;
+    }
+
+    .main {
+        width:100%;
+    }
+   .paginas {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+   } 
+    .piedefirma .grupo1 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        padding: 100px 100px;
+        margin: 20px auto;
+        height: auto;
+    }
+    .banner-google {
+        width: 100%;
+        margin-top: 115px;
+        height: 400px;
+        margin-bottom: 150px;
+    }    
+    .bar {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: auto;
+        width: 100;
+    }
+    .form1 {
+        width: 100%;
+
+    }
+    .form {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 0 auto;
+        gap: 0;
+        width: 100%;
+    }
+}  
+@media screen and (max-width: 412px){ 
+    .header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: 20px auto;
+    }
+    .slide1 {
+        width: 100%;
+        height: auto;
+    }
+    .tag1 {
+        margin-top: 200px;
+        width: 100%;
+    }
+
+    .empresa {
+        margin-bottom: 100px;
+    }
+    .header ul {
+        display: flex ;
+        align-items: center;
+    }
+    .header ul li a {
+        padding: 0 1px;
+    }
+    main {
+        width: 100%;
+    }
+
+    .main {
+        width:100%;
+    }
+   .paginas {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+   } 
+   .piedefirma {
+        height: auto;
+        width: 100%;
+   }
+    .piedefirma .grupo1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: auto;
+    }    
+    .tag1 {
+        margin-top: 95px;
+    }
+
+    .form {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+    .form1 {
+        width: 100%;
+    }
+    iframe {
+        margin-left: 25px;
+    }
+    .bar {
+        display: grid;
+        grid-template-columns: 1fr;
+        height: auto;
+    }
+    .banner-google {
+        width: 100%;
+        margin-top: 115px;
+        height: 400px;
+        margin-bottom: 150px;
+    }
+}
