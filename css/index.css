@@ -437,8 +437,7 @@ nav {
         margin: 20px auto;
     }
     .slide1 {
-        width: 100%;
-        height: auto;
+        margin-top: 60px;
     }
     .tag1 {
         margin-top: 200px;
