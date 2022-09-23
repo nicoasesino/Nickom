@@ -1,0 +1,22 @@
+{
+  "name": "nickom.cl",
+  "version": "1.0.0",
+  "description": "Proyecto Nickom",
+  "main": "index.js",
+  "scripts": {
+    "build-sass": "node-sass --incluide-path scss ./scss/style.scss ./css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicoasesino/Nickom.git"
+  },
+  "author": "Nicolas Eduardo Contreras Soto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicoasesino/Nickom/issues"
+  },
+  "homepage": "https://github.com/nicoasesino/Nickom#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.3"
+  }
+}
