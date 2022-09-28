@@ -1,0 +1,44 @@
+.contacto {
+    text-align: center;
+    right: 600px;
+    background-color: #27044B;
+    margin: 0 auto;
+
+}  
+
+.contacto a {
+    color: white;
+    font-size: 50px;
+    text-decoration: none;
+
+
+}
+.form1 {
+    border: 10px solid white;
+    margin: 200px auto;
+    height: 1200px;
+    max-width: 1200px;
+    opacity: 0.9;
+    height: auto;
+}
+.form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column: auto;
+    padding: 300px auto;
+    gap: 390px;
+}
+.form iframe {
+    height: 1100px;
+}
+.form .datos {
+    color: black;
+    border: solid black;
+    padding: 50px 0;
+    background-color: rgb(222, 134, 26);
+    border-radius: 10px;
+}
+
+.datos h1 {
+    margin: 10px 30px;
+}
