@@ -1,8 +1,25 @@
 .contacto {
-    text-align: center;
-    right: 600px;
-    background-color: #27044B;
-    margin: 0 auto;
+    background: url(../../assets/images/contacto.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin-top: 90px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    &__banner {
+
+        
+        h1 {
+            color: black;
+            font-size: 100px;
+            text-align: center;
+            font-weight: bold;
+        }
+    }
 
 }  
 
@@ -14,31 +31,35 @@
 
 }
 .form1 {
-    border: 10px solid white;
     margin: 200px auto;
-    height: 1200px;
+    height: 1800px;
     max-width: 1200px;
     opacity: 0.9;
     height: auto;
+    border: salmon solid;
 }
 .form {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-column: auto;
     padding: 300px auto;
-    gap: 390px;
+    gap: 100px;
+    background-color: aliceblue;
 }
 .form iframe {
     height: 1100px;
+    margin: 0 100px;
 }
 .form .datos {
     color: black;
-    border: solid black;
     padding: 50px 0;
-    background-color: rgb(222, 134, 26);
     border-radius: 10px;
+
 }
 
 .datos h1 {
-    margin: 10px 30px;
+    margin: 10px 50px;
+    
+
+    
 }

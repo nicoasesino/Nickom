@@ -9,7 +9,7 @@
     align-items: center;
     padding: 100px 100px;
     max-width: 1700px;
-    margin: 0 auto; }
+    margin: 0 250px; }
     .footer__grupo1-logo img {
       border-radius: 50px; }
     .footer__grupo1-nosotros li {
@@ -88,10 +88,11 @@ nav {
 
 .paginas {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 50px;
   width: 1700px;
   margin: 100px auto;
+  max-width: 900px;
   padding: 100px 0; }
   .paginas .card {
     background-color: #fff;
@@ -206,10 +207,21 @@ nav {
     width: 100%; } }
 
 .contacto {
-  text-align: center;
-  right: 600px;
-  background-color: #27044B;
-  margin: 0 auto; }
+  background: url(../../assets/images/contacto.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  margin-top: 90px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  .contacto__banner h1 {
+    color: black;
+    font-size: 100px;
+    text-align: center;
+    font-weight: bold; }
 
 .contacto a {
   color: white;
@@ -217,37 +229,37 @@ nav {
   text-decoration: none; }
 
 .form1 {
-  border: 10px solid white;
   margin: 200px auto;
-  height: 1200px;
+  height: 1800px;
   max-width: 1200px;
   opacity: 0.9;
-  height: auto; }
+  height: auto;
+  border: salmon solid; }
 
 .form {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-column: auto;
   padding: 300px auto;
-  gap: 390px; }
+  gap: 100px;
+  background-color: aliceblue; }
 
 .form iframe {
-  height: 1100px; }
+  height: 1100px;
+  margin: 0 100px; }
 
 .form .datos {
   color: black;
-  border: solid black;
   padding: 50px 0;
-  background-color: #de861a;
   border-radius: 10px; }
 
 .datos h1 {
-  margin: 10px 30px; }
+  margin: 10px 50px; }
 
 .banner-google {
   width: 100%;
-  margin-top: 50px;
-  height: 500px;
+  margin-top: 90px;
+  height: 600px;
   margin-bottom: 150px; }
 
 .bar {
@@ -287,3 +299,96 @@ nav {
   .bar {
     display: grid;
     grid-template-columns: 1fr; } }
+
+.nosotros__banner {
+  margin-top: 90px;
+  width: 100%; }
+  .nosotros__banner img {
+    width: 100%;
+    height: 600px; }
+
+.nosotros__nosotros {
+  margin: 100px 0;
+  color: black;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 100px;
+  margin: 300px 300px; }
+  .nosotros__nosotros__yo {
+    background-color: #82D9BF;
+    border-radius: 10px 30px; }
+    .nosotros__nosotros__yo__1 {
+      text-align: center;
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 40px;
+      border: 5px black solid;
+      margin: 20px 50px;
+      background-color: aqua; }
+  .nosotros__nosotros__logo {
+    display: flex;
+    justify-content: center; }
+  .nosotros__nosotros__carrera {
+    background-color: #ACD982;
+    height: 500px;
+    border-radius: 10px 5px 50px 5px; }
+    .nosotros__nosotros__carrera__1 {
+      text-align: center;
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 40px;
+      border: 5px black solid;
+      margin: 20px 50px;
+      background-color: #829CD9; }
+
+.banner__servicios {
+  background: url(../../assets/images/servicios.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  margin-top: 90px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start; }
+  .banner__servicios__palabra h1 {
+    color: black;
+    font-size: 100px;
+    text-align: center;
+    font-weight: bold; }
+
+.servicios__servicios {
+  margin: 100px 0;
+  color: black;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 100px;
+  margin: 300px 300px; }
+  .servicios__servicios p {
+    text-align: center; }
+  .servicios__servicios__web {
+    background-color: #82D9BF;
+    border-radius: 10px 30px; }
+    .servicios__servicios__web__title {
+      text-align: center;
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 40px;
+      border: 5px black solid;
+      margin: 20px 50px;
+      background-color: aqua; }
+    .servicios__servicios__web__logo {
+      display: flex;
+      justify-content: center; }
+  .servicios__servicios__it {
+    background-color: #ACD982;
+    height: 500px;
+    border-radius: 10px 5px 50px 5px; }
+    .servicios__servicios__it__title {
+      text-align: center;
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 40px;
+      border: 5px black solid;
+      margin: 20px 50px;
+      background-color: #829CD9; }
+    .servicios__servicios__it__logo {
+      display: flex;
+      justify-content: center; }

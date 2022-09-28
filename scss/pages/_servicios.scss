@@ -1,0 +1,84 @@
+.banner__servicios {
+    background: url(../../assets/images/servicios.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin-top: 90px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+
+    &__palabra {
+
+        
+        h1 {
+            color: black;
+            font-size: 100px;
+            text-align: center;
+            font-weight: bold;
+        }
+    }
+
+}   
+
+.servicios {
+
+
+
+    &__servicios {
+        margin: 100px 0;
+        color: black;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 100px;
+        margin: 300px 300px;
+
+        & p {
+            text-align: center;
+        }
+
+        &__web {
+            background-color: #82D9BF ;
+            border-radius:10px 30px;
+
+            &__title {
+                text-align: center;
+                font-family: 'Courier New', Courier, monospace;
+                font-size: 40px;
+                border: 5px black solid;
+                margin: 20px 50px;
+                background-color: aqua;
+            }
+
+            &__logo {
+                display: flex;
+                justify-content: center;
+            }
+
+        }
+
+        &__it {
+            background-color: #ACD982;
+            height: 500px;
+            border-radius:10px 5px 50px 5px;
+
+            &__title {
+                text-align: center;
+                font-family: 'Courier New', Courier, monospace;
+                font-size: 40px;
+                border: 5px black solid;
+                margin: 20px 50px;
+                background-color: #829CD9;
+            }
+
+            &__logo {
+                display: flex;
+                justify-content: center;
+            }
+        }
+    }
+
+
+}
