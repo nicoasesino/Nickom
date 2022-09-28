@@ -110,6 +110,19 @@
     margin-top: 60px;
   }
 
+  @media (max-width: 1000px) {
+    .paginas {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      width: 100%;
+    }
+    .slide1 img {
+      height: 500px;
+      width: 100%;
+    }
+  }
+
+
 @media (max-width: 768px) {
   .paginas {
     display: grid;
