@@ -339,6 +339,26 @@ nav {
       margin: 20px 50px;
       background-color: #829CD9; }
 
+@media (max-width: 1440px) {
+  .nosotros__nosotros {
+    display: grid;
+    grid-template-columns: 1fr 1fr; } }
+
+@media (max-width: 1024px) {
+  .nosotros__nosotros {
+    display: grid;
+    grid-template-columns: 1fr 1fr; } }
+
+@media (max-width: 768px) {
+  .nosotros__nosotros {
+    display: grid;
+    grid-template-columns: 1fr; } }
+
+@media (max-width: 576px) {
+  .nosotros__nosotros {
+    display: grid;
+    grid-template-columns: 1fr; } }
+
 .banner__servicios {
   background: url(../../assets/images/servicios.jpeg);
   background-position: center;
@@ -392,3 +412,23 @@ nav {
     .servicios__servicios__it__logo {
       display: flex;
       justify-content: center; }
+
+@media (max-width: 1440px) {
+  .servicios__servicios {
+    display: grid;
+    grid-template-columns: 1fr 1fr; } }
+
+@media (max-width: 1024px) {
+  .servicios__servicios {
+    display: grid;
+    grid-template-columns: 1fr 1fr; } }
+
+@media (max-width: 768px) {
+  .servicios__servicios {
+    display: grid;
+    grid-template-columns: 1fr; } }
+
+@media (max-width: 576px) {
+  .servicios__servicios {
+    display: grid;
+    grid-template-columns: 1fr; } }

@@ -54,3 +54,31 @@
         }
     }
 }
+
+@media (max-width: 1440px) {
+    .nosotros__nosotros {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+  }
+  @media (max-width: 1024px) {
+    .nosotros__nosotros {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+  }
+
+
+@media (max-width: 768px) {
+    .nosotros__nosotros {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+  
+}
+  @media (max-width: 576px) {
+    .nosotros__nosotros {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+  }
