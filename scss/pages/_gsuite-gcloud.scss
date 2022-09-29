@@ -9,8 +9,7 @@
 
 .bar  {
     margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    @include grillas(2);
     padding: 0 auto;
     gap: 50px;
     height: auto;
@@ -48,7 +47,6 @@
 
 @media (max-width: 576px) {
     .bar {
-        display: grid;
-        grid-template-columns: 1fr;
+        @include grillas(1);
     }
 }

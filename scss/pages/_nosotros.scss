@@ -12,8 +12,7 @@
 
         margin: 100px 0;
         color: black;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+        @include grillas(2);
         gap: 100px;
         margin: 300px 300px;
 
@@ -57,28 +56,24 @@
 
 @media (max-width: 1440px) {
     .nosotros__nosotros {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+        @include grillas(2);
     }
   }
   @media (max-width: 1024px) {
     .nosotros__nosotros {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+        @include grillas(2);
     }
   }
 
 
 @media (max-width: 768px) {
     .nosotros__nosotros {
-        display: grid;
-        grid-template-columns: 1fr;
+        @include grillas(1);
     }
   
 }
   @media (max-width: 576px) {
     .nosotros__nosotros {
-        display: grid;
-        grid-template-columns: 1fr;
+        @include grillas(1);
     }
   }

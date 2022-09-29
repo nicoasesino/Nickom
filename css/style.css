@@ -77,11 +77,13 @@ li {
 body {
   font-family: 'Mulish', sans-serif;
   background: url(/assets/images/banner3.jpg);
+  height: auto; }
+
+.img-back, body, .statistics, .contacto, .banner__servicios {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-attachment: fixed;
-  height: auto; }
+  background-attachment: fixed; }
 
 nav {
   background-color: #1f0737; }
@@ -145,11 +147,7 @@ nav {
 .statistics {
   margin: 150px 0;
   padding: 100px 20px;
-  background-image: url("/assets/images/banner.jpeg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed; }
+  background-image: url("/assets/images/banner.jpeg"); }
 
 .statistics__content {
   color: #e2e8f0;
@@ -173,7 +171,7 @@ nav {
 @media (max-width: 1440px) {
   .paginas {
     display: grid;
-    grid-template-columns: 1fr 1fr 1f;
+    grid-template-columns: repeat(3, 1fr);
     width: 100%; }
   .slide1 img {
     height: 500px;
@@ -182,7 +180,7 @@ nav {
 @media (max-width: 1024px) {
   .paginas {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
     width: 100%; }
   .slide1 img {
     height: 500px;
@@ -191,7 +189,7 @@ nav {
 @media (max-width: 768px) {
   .paginas {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
     width: 100%; }
   .slide1 img {
     height: 500px;
@@ -200,7 +198,7 @@ nav {
 @media (max-width: 576px) {
   .paginas {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(1, 1fr);
     width: 100%; }
   .slide1 img {
     height: 500px;
@@ -208,25 +206,21 @@ nav {
 
 .contacto {
   background: url(../../assets/images/contacto.jpeg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   width: 100%;
   margin-top: 90px;
   height: 600px;
   display: flex;
   flex-direction: column;
   justify-content: center; }
+  .contacto a {
+    color: white;
+    font-size: 50px;
+    text-decoration: none; }
   .contacto__banner h1 {
     color: black;
     font-size: 100px;
     text-align: center;
     font-weight: bold; }
-
-.contacto a {
-  color: white;
-  font-size: 50px;
-  text-decoration: none; }
 
 .form1 {
   margin: 200px auto;
@@ -298,7 +292,7 @@ nav {
 @media (max-width: 576px) {
   .bar {
     display: grid;
-    grid-template-columns: 1fr; } }
+    grid-template-columns: repeat(1, 1fr); } }
 
 .nosotros__banner {
   margin-top: 90px;
@@ -311,7 +305,7 @@ nav {
   margin: 100px 0;
   color: black;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, 1fr);
   gap: 100px;
   margin: 300px 300px; }
   .nosotros__nosotros__yo {
@@ -342,28 +336,25 @@ nav {
 @media (max-width: 1440px) {
   .nosotros__nosotros {
     display: grid;
-    grid-template-columns: 1fr 1fr; } }
+    grid-template-columns: repeat(2, 1fr); } }
 
 @media (max-width: 1024px) {
   .nosotros__nosotros {
     display: grid;
-    grid-template-columns: 1fr 1fr; } }
+    grid-template-columns: repeat(2, 1fr); } }
 
 @media (max-width: 768px) {
   .nosotros__nosotros {
     display: grid;
-    grid-template-columns: 1fr; } }
+    grid-template-columns: repeat(1, 1fr); } }
 
 @media (max-width: 576px) {
   .nosotros__nosotros {
     display: grid;
-    grid-template-columns: 1fr; } }
+    grid-template-columns: repeat(1, 1fr); } }
 
 .banner__servicios {
   background: url(../../assets/images/servicios.jpeg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   width: 100%;
   margin-top: 90px;
   height: 600px;
@@ -416,19 +407,19 @@ nav {
 @media (max-width: 1440px) {
   .servicios__servicios {
     display: grid;
-    grid-template-columns: 1fr 1fr; } }
+    grid-template-columns: repeat(2, 1fr); } }
 
 @media (max-width: 1024px) {
   .servicios__servicios {
     display: grid;
-    grid-template-columns: 1fr 1fr; } }
+    grid-template-columns: repeat(2, 1fr); } }
 
 @media (max-width: 768px) {
   .servicios__servicios {
     display: grid;
-    grid-template-columns: 1fr; } }
+    grid-template-columns: repeat(1, 1fr); } }
 
 @media (max-width: 576px) {
   .servicios__servicios {
     display: grid;
-    grid-template-columns: 1fr; } }
+    grid-template-columns: repeat(1, 1fr); } }

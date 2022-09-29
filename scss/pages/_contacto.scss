@@ -1,14 +1,19 @@
 .contacto {
     background: url(../../assets/images/contacto.jpeg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    @extend .img-back;
     width: 100%;
     margin-top: 90px;
     height: 600px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+    & a {
+        color: white;
+        font-size: 50px;
+        text-decoration: none;
+
+    }
 
     &__banner {
 
@@ -23,13 +28,6 @@
 
 }  
 
-.contacto a {
-    color: white;
-    font-size: 50px;
-    text-decoration: none;
-
-
-}
 .form1 {
     margin: 200px auto;
     height: 1800px;
@@ -39,8 +37,7 @@
     border: salmon solid;
 }
 .form {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    @include grillas(2);
     grid-column: auto;
     padding: 300px auto;
     gap: 100px;
