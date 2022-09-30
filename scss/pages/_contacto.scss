@@ -63,7 +63,7 @@
 
 @media (max-width: 576px){
     .form {
-        @include grillas(2);
+        @include grillas(1);
         margin: 100px auto;
     }
 }
