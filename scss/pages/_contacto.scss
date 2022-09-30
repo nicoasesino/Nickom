@@ -60,3 +60,10 @@
 
     
 }
+
+@media (max-width: 576px){
+    .form {
+        @include grillas(2);
+        margin: 100px auto;
+    }
+}

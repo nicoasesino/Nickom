@@ -121,5 +121,6 @@
     }
     .servicios__servicios {
         @include grillas(1);
+        width: 100%;
     }
   }

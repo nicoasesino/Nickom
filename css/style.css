@@ -256,6 +256,12 @@ nav {
 .datos h1 {
   margin: 10px 50px; }
 
+@media (max-width: 576px) {
+  .form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 100px auto; } }
+
 .banner-google {
   width: 100%;
   margin-top: 90px;
@@ -358,7 +364,8 @@ nav {
   .nosotros__nosotros {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    margin: 100px auto; } }
+    margin: 100px auto;
+    width: 100%; } }
 
 .banner__servicios {
   background: url(../../assets/images/servicios.jpeg);
@@ -443,4 +450,5 @@ nav {
     background-size: cover; }
   .servicios__servicios {
     display: grid;
-    grid-template-columns: repeat(1, 1fr); } }
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%; } }
