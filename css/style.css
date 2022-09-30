@@ -61,7 +61,13 @@
   .footer__grupo1 {
     display: flex;
     justify-content: space-between;
-    flex-direction: column; } }
+    flex-direction: column;
+    margin: 10px auto; }
+    .footer__grupo1 h3 {
+      text-align: center;
+      margin-top: 30px; }
+    .footer__grupo1-rsrs a i {
+      margin: 10px 10px; } }
 
 * {
   margin: 0;
@@ -77,13 +83,13 @@ li {
 body {
   font-family: 'Mulish', sans-serif;
   background: url(/assets/images/banner3.jpg);
+  background-attachment: fixed;
   height: auto; }
 
-.img-back, body, .statistics, .contacto, .banner__servicios {
+.img-back, body, .statistics, .contacto {
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
-  background-attachment: fixed; }
+  background-size: cover; }
 
 nav {
   background-color: #1f0737; }
@@ -351,10 +357,14 @@ nav {
 @media (max-width: 576px) {
   .nosotros__nosotros {
     display: grid;
-    grid-template-columns: repeat(1, 1fr); } }
+    grid-template-columns: repeat(1, 1fr);
+    margin: 100px auto; } }
 
 .banner__servicios {
   background: url(../../assets/images/servicios.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   width: 100%;
   margin-top: 90px;
   height: 600px;
@@ -405,21 +415,32 @@ nav {
       justify-content: center; }
 
 @media (max-width: 1440px) {
+  .banner__servicios {
+    width: 100%; }
   .servicios__servicios {
     display: grid;
     grid-template-columns: repeat(2, 1fr); } }
 
 @media (max-width: 1024px) {
+  .banner__servicios {
+    width: 100%; }
   .servicios__servicios {
     display: grid;
     grid-template-columns: repeat(2, 1fr); } }
 
 @media (max-width: 768px) {
+  .banner__servicios {
+    width: 100%; }
   .servicios__servicios {
     display: grid;
-    grid-template-columns: repeat(1, 1fr); } }
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+    margin: 100px auto; } }
 
 @media (max-width: 576px) {
+  .banner__servicios {
+    width: 100%;
+    background-size: cover; }
   .servicios__servicios {
     display: grid;
     grid-template-columns: repeat(1, 1fr); } }

@@ -1,6 +1,8 @@
 .banner__servicios {
     background: url(../../assets/images/servicios.jpeg);
-    @extend .img-back;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     width: 100%;
     margin-top: 90px;
     height: 600px;
@@ -82,24 +84,41 @@
 }
 
 @media (max-width: 1440px) {
+    .banner__servicios {
+        width: 100%;
+    }
     .servicios__servicios {
+        
         @include grillas(2);
     }
   }
   @media (max-width: 1024px) {
+    .banner__servicios {
+        width: 100%;
+    }
     .servicios__servicios {
         @include grillas(2);
+        
     }
   }
 
 
 @media (max-width: 768px) {
+    .banner__servicios {
+        width: 100%;
+    }
     .servicios__servicios {
         @include grillas(1);
+        width: 100%;
+        margin: 100px auto;
     }
   
 }
   @media (max-width: 576px) {
+    .banner__servicios {
+        width: 100%;
+        background-size: cover;
+    }
     .servicios__servicios {
         @include grillas(1);
     }

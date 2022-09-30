@@ -13,6 +13,7 @@ li {
 body {
     font-family: 'Mulish', sans-serif;
     background: url(/assets/images/banner3.jpg);
+    background-attachment: fixed;
     @extend .img-back;
     height: auto;
 }
@@ -21,7 +22,6 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-attachment: fixed;
 }
 
 @mixin grillas ($columnas){
