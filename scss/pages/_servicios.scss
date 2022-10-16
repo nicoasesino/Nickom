@@ -1,0 +1,126 @@
+.banner__servicios {
+    background: url(../../assets/images/servicios.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    margin-top: 90px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+
+    &__palabra {
+
+        
+        h1 {
+            color: black;
+            font-size: 100px;
+            text-align: center;
+            font-weight: bold;
+        }
+    }
+
+}   
+
+.servicios {
+
+
+
+    &__servicios {
+        margin: 200px auto;
+        color: black;
+        display: grid;
+        @include grillas(2);
+        gap: 100px;
+        max-width: 1200px;
+
+        & p {
+            text-align: center;
+        }
+
+        &__web {
+            background-color: #82D9BF ;
+            border-radius:10px 30px;
+
+            &__title {
+                text-align: center;
+                font-family: 'Courier New', Courier, monospace;
+                font-size: 40px;
+                border: 5px black solid;
+                margin: 20px 50px;
+                background-color: aqua;
+            }
+
+            &__logo {
+                display: flex;
+                justify-content: center;
+            }
+
+        }
+
+        &__it {
+            background-color: #ACD982;
+            height: 500px;
+            border-radius:10px 5px 50px 5px;
+
+            &__title {
+                text-align: center;
+                font-family: 'Courier New', Courier, monospace;
+                font-size: 40px;
+                border: 5px black solid;
+                margin: 20px 50px;
+                background-color: #829CD9;
+            }
+
+            &__logo {
+                display: flex;
+                justify-content: center;
+            }
+        }
+    }
+
+
+}
+
+@media (max-width: 1440px) {
+    .banner__servicios {
+        width: 100%;
+    }
+    .servicios__servicios {
+        
+        @include grillas(2);
+    }
+  }
+  @media (max-width: 1024px) {
+    .banner__servicios {
+        width: 100%;
+    }
+    .servicios__servicios {
+        @include grillas(2);
+        
+    }
+  }
+
+
+@media (max-width: 768px) {
+    .banner__servicios {
+        width: 100%;
+    }
+    .servicios__servicios {
+        @include grillas(1);
+        width: 100%;
+        margin: 100px auto;
+    }
+  
+}
+  @media (max-width: 576px) {
+    .banner__servicios {
+        width: 100%;
+        background-size: cover;
+    }
+    .servicios__servicios {
+        @include grillas(1);
+        max-width: 576px;
+    }
+  }

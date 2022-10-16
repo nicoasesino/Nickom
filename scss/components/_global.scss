@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+body {
+    font-family: 'Mulish', sans-serif;
+    background: url(/assets/images/banner3.jpg);
+    background-attachment: fixed;
+    @extend .img-back;
+    height: auto;
+}
+
+.img-back {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+@mixin grillas ($columnas){
+
+    display: grid;
+    grid-template-columns: repeat($columnas, 1fr);
+    
+}

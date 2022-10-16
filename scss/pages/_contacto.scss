@@ -1,0 +1,69 @@
+.contacto {
+    background: url(../../assets/images/contacto.jpeg);
+    @extend .img-back;
+    width: 100%;
+    margin-top: 90px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    & a {
+        color: white;
+        font-size: 50px;
+        text-decoration: none;
+
+    }
+
+    &__banner {
+
+        
+        h1 {
+            color: black;
+            font-size: 100px;
+            text-align: center;
+            font-weight: bold;
+        }
+    }
+
+}  
+
+.form1 {
+    margin: 200px auto;
+    height: 1800px;
+    max-width: 1200px;
+    opacity: 0.9;
+    height: auto;
+    border: salmon solid;
+}
+.form {
+    @include grillas(2);
+    grid-column: auto;
+    padding: 300px auto;
+    gap: 100px;
+    background-color: aliceblue;
+}
+.form iframe {
+    height: 1100px;
+    margin: 0 100px;
+}
+.form .datos {
+    color: black;
+    padding: 50px 0;
+    border-radius: 10px;
+
+}
+
+.datos h1 {
+    margin: 10px 50px;
+    
+
+    
+}
+
+@media (max-width: 576px){
+    .form {
+        @include grillas(1);
+        margin: 100px auto;
+    }
+}

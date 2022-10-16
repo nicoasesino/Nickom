@@ -1,0 +1,52 @@
+
+.banner-google {
+    width: 100%;
+    margin-top: 90px;
+    height: 600px;
+    margin-bottom: 150px;
+
+}
+
+.bar  {
+    margin: 0 auto;
+    @include grillas(2);
+    padding: 0 auto;
+    gap: 50px;
+    height: auto;
+    max-width: 1000px;
+}
+
+.texto1 h1 {
+    text-align: center;
+}
+.texto h1 {
+    text-align: center;
+
+
+}
+.texto h1 a {
+    text-decoration: none;
+    color: white;
+}
+
+.texto {
+    border: solid;
+    padding: 30px 30px;
+    background-color: cadetblue;
+    border-radius: 10px;
+    color: white;
+}
+.texto1 {
+    border: solid;
+    padding: 30px 30px;
+    background-color: coral;
+    border-radius: 10px;
+    color: white;
+
+}
+
+@media (max-width: 576px) {
+    .bar {
+        @include grillas(1);
+    }
+}

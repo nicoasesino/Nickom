@@ -1,0 +1,447 @@
+.footer {
+  background-color: #1f0737;
+  width: 100%;
+  color: white;
+  margin-top: 100px; }
+  .footer__social {
+    background-color: #7933B6; }
+  .footer__grupo1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 100px;
+    max-width: 1700px;
+    margin: 0 250px; }
+    .footer__grupo1-logo img {
+      border-radius: 50px; }
+    .footer__grupo1-nosotros li {
+      margin: 10px 0; }
+      .footer__grupo1-nosotros li:hover {
+        background-color: aqua;
+        color: white;
+        border-radius: 10px;
+        padding: 0 20px; }
+    .footer__grupo1-nosotros a {
+      color: white;
+      text-align: start; }
+    .footer__grupo1-ubicacion h3 {
+      text-align: center; }
+    .footer__grupo1-ubicacion img {
+      border-radius: 50px; }
+    .footer__grupo1-busqueda h3 {
+      margin-bottom: 30px; }
+    .footer__grupo1-busqueda h4 {
+      text-align: center; }
+    .footer__grupo1-busqueda input {
+      width: 100%; }
+    .footer__grupo1-rs h3 {
+      margin-bottom: 30px; }
+    .footer__grupo1-rsrs {
+      font-size: 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      .footer__grupo1-rsrs-youtube {
+        color: red; }
+      .footer__grupo1-rsrs-facebook {
+        color: blue; }
+      .footer__grupo1-rsrs-instagram {
+        color: purple; }
+      .footer__grupo1-rsrs-linkedin {
+        color: blue; }
+  .footer__copyright {
+    background-color: black; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none; }
+
+li {
+  list-style-type: none; }
+
+body {
+  font-family: 'Mulish', sans-serif;
+  background: url(/assets/images/banner3.jpg);
+  background-attachment: fixed;
+  height: auto; }
+
+.img-back, body, .statistics, .contacto {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+nav {
+  background-color: #1f0737; }
+
+.paginas {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+  width: 1700px;
+  margin: 100px auto;
+  max-width: 900px;
+  padding: 100px 0; }
+  .paginas .card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 25px 50px -12px #0a0a0a;
+    transition: all 500ms ease;
+    cursor: default; }
+    .paginas .card:hover {
+      box-shadow: 0 25px 50px -12px red;
+      transform: translateY(-5%); }
+    .paginas .card__title {
+      font-size: 20px;
+      margin-bottom: 20px;
+      text-align: center; }
+      .paginas .card__title a {
+        text-decoration: none;
+        color: #0d7795;
+        font-weight: bolder;
+        text-align: center; }
+    .paginas .card__description {
+      margin-bottom: 40px;
+      text-align: center;
+      height: 100%; }
+    .paginas .card__link {
+      background-color: #22c55e;
+      display: inline-block;
+      width: 100%;
+      padding: 15px 0;
+      text-align: center;
+      color: #e2e8f0;
+      border-radius: 10px;
+      cursor: pointer;
+      font-weight: bold;
+      font-size: 16px; }
+      .paginas .card__link:hover {
+        transform: translateY(-8%);
+        box-shadow: 0 25px 50px -12px red;
+        background-color: #27044B;
+        color: white; }
+      .paginas .card__link a {
+        text-decoration: none; }
+    .paginas .card__header {
+      position: relative; }
+      .paginas .card__header-img {
+        width: 100%;
+        border-radius: 10px;
+        margin-bottom: 20px; }
+
+.statistics {
+  margin: 150px 0;
+  padding: 100px 20px;
+  background-image: url("/assets/images/banner.jpeg"); }
+
+.statistics__content {
+  color: #e2e8f0;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto; }
+
+.statistics__content-data {
+  font-size: 40px;
+  text-align: center; }
+
+.statistics__content-data span {
+  display: block;
+  font-size: 20px;
+  margin-top: 5px; }
+
+.slide1 {
+  margin-top: 60px; }
+
+@media (max-width: 1440px) {
+  .paginas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1200px;
+    margin: 0 auto; }
+  .slide1 img {
+    height: 500px;
+    width: 100%; } }
+
+@media (max-width: 1024px) {
+  .paginas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%; }
+  .slide1 img {
+    height: 500px;
+    width: 100%; } }
+
+@media (max-width: 1000px) {
+  .paginas {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%; }
+  .slide1 img {
+    height: 500px;
+    width: 100%; } }
+
+@media (max-width: 768px) {
+  .paginas {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%; }
+  .slide1 img {
+    height: 500px;
+    width: 100%; } }
+
+@media (max-width: 576px) {
+  .paginas {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%; }
+  .slide1 img {
+    height: 500px;
+    width: 100%; } }
+
+.contacto {
+  background: url(../../assets/images/contacto.jpeg);
+  width: 100%;
+  margin-top: 90px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  .contacto a {
+    color: white;
+    font-size: 50px;
+    text-decoration: none; }
+  .contacto__banner h1 {
+    color: black;
+    font-size: 100px;
+    text-align: center;
+    font-weight: bold; }
+
+.form1 {
+  margin: 200px auto;
+  height: 1800px;
+  max-width: 1200px;
+  opacity: 0.9;
+  height: auto;
+  border: salmon solid; }
+
+.form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column: auto;
+  padding: 300px auto;
+  gap: 100px;
+  background-color: aliceblue; }
+
+.form iframe {
+  height: 1100px;
+  margin: 0 100px; }
+
+.form .datos {
+  color: black;
+  padding: 50px 0;
+  border-radius: 10px; }
+
+.datos h1 {
+  margin: 10px 50px; }
+
+@media (max-width: 576px) {
+  .form {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 100px auto; } }
+
+.banner-google {
+  width: 100%;
+  margin-top: 90px;
+  height: 600px;
+  margin-bottom: 150px; }
+
+.bar {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 0 auto;
+  gap: 50px;
+  height: auto;
+  max-width: 1000px; }
+
+.texto1 h1 {
+  text-align: center; }
+
+.texto h1 {
+  text-align: center; }
+
+.texto h1 a {
+  text-decoration: none;
+  color: white; }
+
+.texto {
+  border: solid;
+  padding: 30px 30px;
+  background-color: cadetblue;
+  border-radius: 10px;
+  color: white; }
+
+.texto1 {
+  border: solid;
+  padding: 30px 30px;
+  background-color: coral;
+  border-radius: 10px;
+  color: white; }
+
+@media (max-width: 576px) {
+  .bar {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); } }
+
+.nosotros__banner {
+  margin-top: 90px;
+  width: 100%; }
+  .nosotros__banner img {
+    width: 100%;
+    height: 600px; }
+
+.nosotros__nosotros {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 100px;
+  max-width: 1200px;
+  margin: 200px auto; }
+  .nosotros__nosotros__yo {
+    background-color: #82D9BF;
+    border-radius: 10px 30px; }
+    .nosotros__nosotros__yo__1 {
+      text-align: center;
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 40px;
+      border: 5px black solid;
+      margin: 20px 50px;
+      background-color: aqua; }
+  .nosotros__nosotros__logo {
+    display: flex;
+    justify-content: center; }
+  .nosotros__nosotros__carrera {
+    background-color: #ACD982;
+    height: 500px;
+    border-radius: 10px 5px 50px 5px; }
+    .nosotros__nosotros__carrera__1 {
+      text-align: center;
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 40px;
+      border: 5px black solid;
+      margin: 20px 50px;
+      background-color: #829CD9; }
+
+@media (max-width: 1440px) {
+  .nosotros__nosotros {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); } }
+
+@media (max-width: 1024px) {
+  .nosotros__nosotros {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); } }
+
+@media (max-width: 768px) {
+  .nosotros__nosotros {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); } }
+
+@media (max-width: 576px) {
+  .nosotros__nosotros {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 100px auto;
+    max-width: 576px; } }
+
+.banner__servicios {
+  background: url(../../assets/images/servicios.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  margin-top: 90px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start; }
+  .banner__servicios__palabra h1 {
+    color: black;
+    font-size: 100px;
+    text-align: center;
+    font-weight: bold; }
+
+.servicios__servicios {
+  margin: 200px auto;
+  color: black;
+  display: grid;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 100px;
+  max-width: 1200px; }
+  .servicios__servicios p {
+    text-align: center; }
+  .servicios__servicios__web {
+    background-color: #82D9BF;
+    border-radius: 10px 30px; }
+    .servicios__servicios__web__title {
+      text-align: center;
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 40px;
+      border: 5px black solid;
+      margin: 20px 50px;
+      background-color: aqua; }
+    .servicios__servicios__web__logo {
+      display: flex;
+      justify-content: center; }
+  .servicios__servicios__it {
+    background-color: #ACD982;
+    height: 500px;
+    border-radius: 10px 5px 50px 5px; }
+    .servicios__servicios__it__title {
+      text-align: center;
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 40px;
+      border: 5px black solid;
+      margin: 20px 50px;
+      background-color: #829CD9; }
+    .servicios__servicios__it__logo {
+      display: flex;
+      justify-content: center; }
+
+@media (max-width: 1440px) {
+  .banner__servicios {
+    width: 100%; }
+  .servicios__servicios {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); } }
+
+@media (max-width: 1024px) {
+  .banner__servicios {
+    width: 100%; }
+  .servicios__servicios {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); } }
+
+@media (max-width: 768px) {
+  .banner__servicios {
+    width: 100%; }
+  .servicios__servicios {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+    margin: 100px auto; } }
+
+@media (max-width: 576px) {
+  .banner__servicios {
+    width: 100%;
+    background-size: cover; }
+  .servicios__servicios {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    max-width: 576px; } }

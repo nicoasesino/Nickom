@@ -1,0 +1,82 @@
+.nosotros {
+    &__banner {
+        margin-top: 90px;
+        width: 100%;
+
+        img {
+            width: 100%;
+            height: 600px;
+
+        }
+    }
+    &__nosotros {
+
+        @include grillas(2);
+        gap: 100px;
+        max-width: 1200px;
+        margin: 200px auto;
+        
+
+        &__yo {
+            background-color: #82D9BF;
+            border-radius:10px 30px;
+
+            &__1 {
+                text-align: center;
+                font-family: 'Courier New', Courier, monospace;
+                font-size: 40px;
+                border: 5px black solid;
+                margin: 20px 50px;
+                background-color: aqua;
+            }
+            
+        }
+
+
+        &__logo {
+            display: flex;
+            justify-content: center;
+        }
+
+        &__carrera {
+            background-color: #ACD982;
+            height: 500px;
+            border-radius:10px 5px 50px 5px;
+
+            &__1{
+                text-align: center;
+                font-family: 'Courier New', Courier, monospace;
+                font-size: 40px;
+                border: 5px black solid;
+                margin: 20px 50px;
+                background-color: #829CD9;
+            }
+        }
+    }
+}
+
+@media (max-width: 1440px) {
+    .nosotros__nosotros {
+        @include grillas(2);
+    }
+  }
+  @media (max-width: 1024px) {
+    .nosotros__nosotros {
+        @include grillas(2);
+    }
+  }
+
+
+@media (max-width: 768px) {
+    .nosotros__nosotros {
+        @include grillas(1);
+    }
+  
+}
+  @media (max-width: 576px) {
+    .nosotros__nosotros {
+        @include grillas(1);
+        margin: 100px auto;
+        max-width: 576px;
+    }
+  }
