@@ -70,6 +70,7 @@
 @media (max-width: 768px) {
     .nosotros__nosotros {
         @include grillas(1);
+        width: 100%;
     }
   
 }
