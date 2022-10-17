@@ -271,7 +271,7 @@ nav {
   .form {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    margin: 100px auto;
+    margin: 100px 0;
     width: 50%; } }
 
 @media (max-width: 576px) {
@@ -477,8 +477,7 @@ nav {
   .servicios__servicios {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    width: auto;
-    max-width: 768px; } }
+    width: 100%; } }
 
 @media (max-width: 576px) {
   .banner__servicios {
@@ -486,4 +485,4 @@ nav {
   .servicios__servicios {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    width: 110%; } }
+    width: 100%; } }
