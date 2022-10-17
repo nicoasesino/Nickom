@@ -403,7 +403,8 @@ nav {
 @media (max-width: 490px) {
   .nosotros__nosotros {
     display: grid;
-    grid-template-columns: repeat(1, 1fr); }
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%; }
     .nosotros__nosotros__yo {
       width: 80%; }
     .nosotros__nosotros__carrera {
@@ -489,7 +490,7 @@ nav {
   .servicios__servicios {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    width: 50%; }
+    width: 100%; }
     .servicios__servicios__web {
       width: 80%; }
     .servicios__servicios__it {
@@ -503,8 +504,6 @@ nav {
     grid-template-columns: repeat(1, 1fr);
     width: 100%; }
     .servicios__servicios__web {
-      width: 80%;
-      margin-left: 20px; }
+      width: 80%; }
     .servicios__servicios__it {
-      width: 80%;
-      margin-left: 20px; } }
+      width: 80%; } }
