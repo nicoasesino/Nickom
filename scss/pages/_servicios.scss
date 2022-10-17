@@ -109,7 +109,7 @@
     }
     .servicios__servicios {
         @include grillas(1);
-        width: 100%;
+        width: auto;
         max-width: 768px;
     }
   
@@ -120,7 +120,7 @@
     }
     .servicios__servicios {
         @include grillas(1);
-        width: 100%;
+        width: auto;
         max-width: 576px;
     }
   }
