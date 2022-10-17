@@ -72,12 +72,18 @@
     .form {
         @include grillas(1);
         margin: 100px 0;
-        width: 50%;
+        width: 100%;
+    }
+    .form iframe {
+        margin-right: 50px;
     }
 }
 @media (max-width: 576px){
     .form {
         @include grillas(1);
         margin: 100px 0;
+    }
+    .form iframe {
+        margin-right: 50px;
     }
 }
