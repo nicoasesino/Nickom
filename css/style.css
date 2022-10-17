@@ -279,8 +279,7 @@ nav {
   .form {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    width: 100%;
-    margin-left: 0; }
+    width: 100%; }
     .form iframe {
       width: 80%; }
   .datos h1 {
