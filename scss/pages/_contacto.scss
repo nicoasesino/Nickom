@@ -71,19 +71,27 @@
 @media (max-width: 768px){
     .form {
         @include grillas(1);
-        margin: 100px 0;
         width: 100%;
     }
     .form iframe {
-        margin-right: 100px;
+        margin-left: 0;
     }
 }
 @media (max-width: 576px){
     .form {
         @include grillas(1);
-        margin: 100px 0;
+        width: 100%;
+        margin-left: 0;
+
+        & iframe {
+            margin-left: 20px;
+        }
+
     }
-    .form iframe {
-        margin-right: 100px;
+    .datos {
+        & h1 {
+            margin-left: 20px;
+            font-size: 20px;
+        }
     }
 }

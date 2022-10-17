@@ -271,18 +271,21 @@ nav {
   .form {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    margin: 100px 0;
     width: 100%; }
   .form iframe {
-    margin-right: 100px; } }
+    margin-left: 0; } }
 
 @media (max-width: 576px) {
   .form {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    margin: 100px 0; }
-  .form iframe {
-    margin-right: 100px; } }
+    width: 100%;
+    margin-left: 0; }
+    .form iframe {
+      margin-left: 20px; }
+  .datos h1 {
+    margin-left: 20px;
+    font-size: 20px; } }
 
 .banner-google {
   width: 100%;
