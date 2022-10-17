@@ -28,12 +28,10 @@
 
 
     &__servicios {
-        margin: 200px auto;
-        color: black;
-        display: grid;
-        @include grillas(2);
-        gap: 100px;
-        max-width: 1200px;
+        gap: 50px;
+        width: 1600px;
+        margin: 100px auto;
+        max-width: 900px;
 
         & p {
             text-align: center;
@@ -92,13 +90,20 @@
         width: 100%;
     }
   }
+
+  @media (max-width: 1200px) {
+    .servicios__servicios  {
+        @include grillas(1);
+        width: 50%;
+    }
+  }
   @media (max-width: 1024px) {
     .banner__servicios {
         width: 100%;
     }
     .servicios__servicios {
-        @include grillas(2);
-        width: 100%;
+        @include grillas(1);
+        width: 50%;
         
     }
   }
@@ -120,7 +125,7 @@
     }
     .servicios__servicios {
         @include grillas(1);
-        width: auto;
-        max-width: 576px;
+        width: 110%;
+        
     }
   }

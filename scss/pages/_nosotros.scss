@@ -61,9 +61,17 @@
         @include grillas(2);
     }
   }
+
+  @media (max-width: 1200px) {
+    .nosotros__nosotros {
+        @include grillas(1);
+        width: 50%;
+    }
+  }
   @media (max-width: 1024px) {
     .nosotros__nosotros {
-        @include grillas(2);
+        @include grillas(1);
+        width: 50%;
     }
   }
 
@@ -78,7 +86,13 @@
   @media (max-width: 576px) {
     .nosotros__nosotros {
         @include grillas(1);
-        margin: 100px auto;
-        max-width: 576px;
+        width: 100%;
+    }
+  }
+
+  @media (max-width: 490px){
+    .nosotros__nosotros {
+        @include grillas(1);
+        
     }
   }

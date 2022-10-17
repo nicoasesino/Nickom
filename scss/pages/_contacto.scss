@@ -35,13 +35,13 @@
     opacity: 0.9;
     height: auto;
     border: salmon solid;
+    background-color: aliceblue;
 }
 .form {
     @include grillas(2);
     grid-column: auto;
     padding: 300px auto;
     gap: 100px;
-    background-color: aliceblue;
 }
 .form iframe {
     height: 1100px;
@@ -60,10 +60,24 @@
 
     
 }
-
-@media (max-width: 576px){
+@media (max-width: 1024px){
+    .form {
+        @include grillas(1);
+        margin: 100px 0;
+        width: 50%;
+        gap: 0;
+    }
+}
+@media (max-width: 768px){
     .form {
         @include grillas(1);
         margin: 100px auto;
+        width: 50%;
+    }
+}
+@media (max-width: 576px){
+    .form {
+        @include grillas(1);
+        margin: 100px 0;
     }
 }
