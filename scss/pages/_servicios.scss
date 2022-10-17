@@ -28,12 +28,19 @@
 
 
     &__servicios {
+<<<<<<< HEAD
         margin: 100px 0;
         color: black;
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 100px;
         margin: 300px 300px;
+=======
+        gap: 50px;
+        width: 100%;
+        margin: 100px auto;
+        max-width: 1600px;
+>>>>>>> entrega_final
 
         & p {
             text-align: center;
@@ -88,8 +95,20 @@
         width: 100%;
     }
     .servicios__servicios {
+<<<<<<< HEAD
         
         @include grillas(2);
+=======
+        @include grillas(2);
+        width: 100%;
+    }
+  }
+
+  @media (max-width: 1200px) {
+    .servicios__servicios  {
+        @include grillas(1);
+        width: 50%;
+>>>>>>> entrega_final
     }
   }
   @media (max-width: 1024px) {
@@ -97,12 +116,20 @@
         width: 100%;
     }
     .servicios__servicios {
+<<<<<<< HEAD
         @include grillas(2);
+=======
+        @include grillas(1);
+        width: 50%;
+>>>>>>> entrega_final
         
     }
   }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> entrega_final
 @media (max-width: 768px) {
     .banner__servicios {
         width: 100%;
@@ -110,17 +137,40 @@
     .servicios__servicios {
         @include grillas(1);
         width: 100%;
+<<<<<<< HEAD
         margin: 100px auto;
+=======
+        &__web {
+            width: 80%;
+        }
+        &__it {
+            width: 80%;
+        }
+>>>>>>> entrega_final
     }
   
 }
   @media (max-width: 576px) {
     .banner__servicios {
         width: 100%;
+<<<<<<< HEAD
         background-size: cover;
     }
     .servicios__servicios {
         @include grillas(1);
         max-width: 576px;
+=======
+    }
+    .servicios__servicios {
+        @include grillas(1);
+        width: 100%;
+
+        &__web {
+            width: 80%;
+        }
+        &__it {
+            width: 80%;
+        }
+>>>>>>> entrega_final
     }
   }
