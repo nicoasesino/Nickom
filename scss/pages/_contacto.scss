@@ -81,6 +81,7 @@
     .form {
         @include grillas(1);
         width: 100%;
+        gap: 50px
 
         & iframe {
             width: 80%;
