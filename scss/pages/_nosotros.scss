@@ -80,6 +80,12 @@
     .nosotros__nosotros {
         @include grillas(1);
         width: 100%;
+        &__yo {
+            width: 80%;
+        }
+        &__carrera {
+            width: 80%;
+        }
     }
   
 }
@@ -87,12 +93,24 @@
     .nosotros__nosotros {
         @include grillas(1);
         width: 100%;
+        &__yo {
+            width: 80%;
+        }
+        &__carrera {
+            width: 80%;
+        }
     }
   }
 
   @media (max-width: 490px){
     .nosotros__nosotros {
         @include grillas(1);
-        
+
+        &__yo {
+            width: 80%;
+        }
+        &__carrera {
+            width: 80%;
+        }
     }
   }

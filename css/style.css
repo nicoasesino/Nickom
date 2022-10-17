@@ -384,18 +384,30 @@ nav {
   .nosotros__nosotros {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    width: 100%; } }
+    width: 100%; }
+    .nosotros__nosotros__yo {
+      width: 80%; }
+    .nosotros__nosotros__carrera {
+      width: 80%; } }
 
 @media (max-width: 576px) {
   .nosotros__nosotros {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    width: 100%; } }
+    width: 100%; }
+    .nosotros__nosotros__yo {
+      width: 80%; }
+    .nosotros__nosotros__carrera {
+      width: 80%; } }
 
 @media (max-width: 490px) {
   .nosotros__nosotros {
     display: grid;
-    grid-template-columns: repeat(1, 1fr); } }
+    grid-template-columns: repeat(1, 1fr); }
+    .nosotros__nosotros__yo {
+      width: 80%; }
+    .nosotros__nosotros__carrera {
+      width: 80%; } }
 
 .banner__servicios {
   background: url(../../assets/images/servicios.jpeg);
@@ -416,9 +428,9 @@ nav {
 
 .servicios__servicios {
   gap: 50px;
-  width: 1600px;
+  width: 100%;
   margin: 100px auto;
-  max-width: 900px; }
+  max-width: 1600px; }
   .servicios__servicios p {
     text-align: center; }
   .servicios__servicios__web {
@@ -477,7 +489,11 @@ nav {
   .servicios__servicios {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    width: 100%; } }
+    width: 50%; }
+    .servicios__servicios__web {
+      width: 80%; }
+    .servicios__servicios__it {
+      width: 80%; } }
 
 @media (max-width: 576px) {
   .banner__servicios {
@@ -485,4 +501,10 @@ nav {
   .servicios__servicios {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    width: 100%; } }
+    width: 100%; }
+    .servicios__servicios__web {
+      width: 80%;
+      margin-left: 20px; }
+    .servicios__servicios__it {
+      width: 80%;
+      margin-left: 20px; } }
