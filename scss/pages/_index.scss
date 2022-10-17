@@ -2,7 +2,11 @@
   
   @include grillas(2);
   gap: 50px;
+<<<<<<< HEAD
   width: 1700px;
+=======
+  width: 1600px;
+>>>>>>> 70e60c90b5460165e404ea9cf901eead5aaf7aa5
   margin: 100px auto;
   max-width: 900px;
   padding: 100px 0;
@@ -105,11 +109,50 @@
 
   .slide1 {
     margin-top: 60px;
+<<<<<<< HEAD
+=======
+    width: 100%;
+>>>>>>> 70e60c90b5460165e404ea9cf901eead5aaf7aa5
   }
 
   @media (max-width: 1440px) {
     .paginas {
       @include grillas(3);
+<<<<<<< HEAD
+      width: 100%;
+    }
+=======
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .slide1 img {
+      height: 500px;
+      width: 100%;
+    }
+  }
+  @media(max-width: 1200px){
+>>>>>>> 70e60c90b5460165e404ea9cf901eead5aaf7aa5
+    .slide1 img {
+      height: 500px;
+      width: 100%;
+    }
+<<<<<<< HEAD
+  }
+  @media (max-width: 1024px) {
+    .paginas {
+      @include grillas(2);
+=======
+    .paginas {
+      @include grillas(2);
+      width: 100%;
+    }
+  }
+  
+
+  @media (max-width: 1024px) {
+    .paginas {
+      @include grillas(3);
+>>>>>>> 70e60c90b5460165e404ea9cf901eead5aaf7aa5
       width: 100%;
     }
     .slide1 img {
@@ -117,7 +160,10 @@
       width: 100%;
     }
   }
-  @media (max-width: 1024px) {
+
+<<<<<<< HEAD
+=======
+  @media (max-width: 1000px) {
     .paginas {
       @include grillas(2);
       width: 100%;
@@ -127,7 +173,7 @@
       width: 100%;
     }
   }
-
+>>>>>>> 70e60c90b5460165e404ea9cf901eead5aaf7aa5
 
 @media (max-width: 768px) {
   .paginas {

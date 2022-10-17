@@ -35,13 +35,20 @@
     opacity: 0.9;
     height: auto;
     border: salmon solid;
+<<<<<<< HEAD
+=======
+    background-color: aliceblue;
+>>>>>>> 70e60c90b5460165e404ea9cf901eead5aaf7aa5
 }
 .form {
     @include grillas(2);
     grid-column: auto;
     padding: 300px auto;
     gap: 100px;
+<<<<<<< HEAD
     background-color: aliceblue;
+=======
+>>>>>>> 70e60c90b5460165e404ea9cf901eead5aaf7aa5
 }
 .form iframe {
     height: 1100px;
@@ -60,10 +67,46 @@
 
     
 }
+<<<<<<< HEAD
 
 @media (max-width: 576px){
     .form {
         @include grillas(1);
         margin: 100px auto;
+=======
+@media (max-width: 1024px){
+    .form {
+        @include grillas(1);
+        margin: 100px 0;
+        width: 50%;
+        gap: 0;
+    }
+}
+@media (max-width: 768px){
+    .form {
+        @include grillas(1);
+        width: 100%;
+    }
+    .form iframe {
+        margin-left: 0;
+    }
+}
+@media (max-width: 576px){
+    .form {
+        @include grillas(1);
+        width: 100%;
+
+        & iframe {
+            width: 80%;
+            margin-left: 20px;
+        }
+
+    }
+    .datos {
+        & h1 {
+            font-size: 20px;
+            width: 80%;
+        }
+>>>>>>> 70e60c90b5460165e404ea9cf901eead5aaf7aa5
     }
 }
