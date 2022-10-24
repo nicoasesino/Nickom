@@ -299,7 +299,7 @@ nav {
   grid-template-columns: repeat(2, 1fr);
   gap: 100px;
   width: 100%;
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 200px auto; }
   .nosotros__nosotros__yo {
     background-color: #82D9BF;
@@ -397,7 +397,7 @@ nav {
   gap: 50px;
   width: 100%;
   margin: 100px auto;
-  max-width: 1600px; }
+  max-width: 1000px; }
   .servicios__servicios p {
     text-align: center; }
   .servicios__servicios__web {
