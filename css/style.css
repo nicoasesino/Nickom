@@ -29,9 +29,6 @@ body {
   background-position: center;
   background-size: cover; }
 
-main {
-  height: auto; }
-
 nav {
   background-color: #454F90; }
 
@@ -258,7 +255,8 @@ nav {
   padding: 0 auto;
   gap: 50px;
   height: auto;
-  max-width: 1000px; }
+  max-width: 1000px;
+  margin-bottom: 100px; }
 
 .texto1 h1 {
   text-align: center; }
