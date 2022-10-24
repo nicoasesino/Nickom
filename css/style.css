@@ -297,9 +297,9 @@ nav {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 100px;
+  width: 100%;
   max-width: 1200px;
-  margin: 200px auto;
-  width: 1700px; }
+  margin: 200px auto; }
   .nosotros__nosotros__yo {
     background-color: #82D9BF;
     border-radius: 10px 30px; }
@@ -391,6 +391,8 @@ nav {
     font-weight: bold; }
 
 .servicios__servicios {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   gap: 50px;
   width: 100%;
   margin: 100px auto;
