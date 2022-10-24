@@ -244,8 +244,8 @@ nav {
 
 .banner-google {
   width: 100%;
-  margin-top: 90px;
-  height: 600px;
+  margin-top: 60px;
+  height: 500px;
   margin-bottom: 150px; }
 
 .bar {
@@ -378,7 +378,7 @@ nav {
   background-position: center;
   background-size: cover;
   width: 100%;
-  margin-top: 90px;
+  margin-top: 60px;
   height: 600px;
   display: flex;
   flex-direction: column;
