@@ -29,6 +29,9 @@ body {
   background-position: center;
   background-size: cover; }
 
+main {
+  height: auto; }
+
 nav {
   background-color: #454F90; }
 
