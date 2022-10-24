@@ -59,6 +59,7 @@
 @media (max-width: 1440px) {
     .nosotros__nosotros {
         @include grillas(2);
+        width: 100%;
     }
   }
 
